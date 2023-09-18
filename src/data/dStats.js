@@ -210,7 +210,7 @@ export const dStats = [
     picks: 0,
   },
   {
-    team: "Dragons",
+    team: "Gremlins",
     player: "Owen Ng",
     sacks: 0,
     tackles: 0,
