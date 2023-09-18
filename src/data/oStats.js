@@ -17,7 +17,7 @@ export const oStats = [
   },
   {
     team: "Gremlins",
-    player: "Daniel Ross",
+    player: "Danny Ross",
     receptions: 0,
     yards: 0,
     touchdowns: 0,

@@ -19,7 +19,7 @@ export const dStats = [
   },
   {
     team: "Gremlins",
-    player: "Daniel Ross",
+    player: "Danny Ross",
     sacks: 0,
     tackles: 0,
     deflections: 0,
