@@ -115,7 +115,7 @@ export const oStats = [
   },
   {
     team: "Gremlins",
-    player: "Devin Salemo",
+    player: "Devin Salemmo",
     receptions: 1,
     yards: 5,
     Ryards: 0,

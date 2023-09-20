@@ -129,7 +129,7 @@ export const dStats = [
   },
   {
     team: "Gremlins",
-    player: "Devin Salemo",
+    player: "Devin Salemmo",
     sacks: 0,
     tackles: 1,
     deflections: 3,

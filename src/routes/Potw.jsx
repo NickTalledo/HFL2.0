@@ -9,7 +9,7 @@ function Potw() {
 
   return (
     <Layout>
-      <section style={backgroundStyle}>
+      <section style={{ ...backgroundStyle, paddingBottom: "2rem" }}>
         <h1 className="text-6xl text-center font-bold text-white">Week 1</h1>
         <div className="flex justify-center items-center ">
           <div className="lg:w-2/3 w-4/5">
