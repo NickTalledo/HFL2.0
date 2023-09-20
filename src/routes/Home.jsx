@@ -85,7 +85,7 @@ function Home() {
                           43
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          19
+                          18
                         </td>
                       </tr>
 
