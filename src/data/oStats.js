@@ -276,10 +276,10 @@ export const oStats = [
   {
     team: "KillaBeez",
     player: "Nick Cupelli",
-    receptions: 0,
-    yards: 0,
+    receptions: 1,
+    yards: 4,
     Ryards: 0,
-    touchdowns: 0,
+    touchdowns: 1,
   },
   {
     team: "Blackout",
