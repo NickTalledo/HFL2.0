@@ -68,14 +68,6 @@ const QBsort = ({ qbStats }) => {
               </th>
               <th className="px-1 py-1 sm:px-2 sm:py-2">
                 <button
-                  onClick={() => handleSort("picks")}
-                  className="hover:text-blue-500 focus:outline-none text-xs sm:text-sm"
-                >
-                  Picks {sortKey === "picks" && (sortOrder === 1 ? "↓" : "↑")}
-                </button>
-              </th>
-              <th className="px-1 py-1 sm:px-2 sm:py-2">
-                <button
                   onClick={() => handleSort("Rtouchdowns")}
                   className="hover:text-blue-500 focus:outline-none text-xs sm:text-sm"
                 >
@@ -92,6 +84,14 @@ const QBsort = ({ qbStats }) => {
                   {sortKey === "Ptouchdowns" && (sortOrder === 1 ? "↓" : "↑")}
                 </button>
               </th>
+              <th className="px-1 py-1 sm:px-2 sm:py-2">
+                <button
+                  onClick={() => handleSort("picks")}
+                  className="hover:text-blue-500 focus:outline-none text-xs sm:text-sm"
+                >
+                  Picks {sortKey === "picks" && (sortOrder === 1 ? "↓" : "↑")}
+                </button>
+              </th>
             </tr>
           </thead>
           <tbody>
@@ -102,9 +102,9 @@ const QBsort = ({ qbStats }) => {
                 completions,
                 Ryards,
                 Pyards,
-                picks,
                 Rtouchdowns,
                 Ptouchdowns,
+                picks,
               }) => {
                 return (
                   <tr key={player} className="hover:bg-gray-50">
@@ -124,13 +124,13 @@ const QBsort = ({ qbStats }) => {
                       {Pyards}
                     </td>
                     <td className="px-1 py-1 sm:px-2 sm:py-2 text-center">
-                      {picks}
-                    </td>
-                    <td className="px-1 py-1 sm:px-2 sm:py-2 text-center">
                       {Rtouchdowns}
                     </td>
                     <td className="px-1 py-1 sm:px-2 sm:py-2 text-center">
                       {Ptouchdowns}
+                    </td>
+                    <td className="px-1 py-1 sm:px-2 sm:py-2 text-center">
+                      {picks}
                     </td>
                   </tr>
                 );

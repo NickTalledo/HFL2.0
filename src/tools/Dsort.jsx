@@ -61,7 +61,7 @@ const Dsort = ({ dStats }) => {
                   onClick={() => handleSort("deflections")}
                   className="hover:text-blue-500 focus:outline-none text-xs sm:text-sm"
                 >
-                  Deflections{" "}
+                  Deflects{" "}
                   {sortKey === "deflections" && (sortOrder === 1 ? "↓" : "↑")}
                 </button>
               </th>
@@ -73,11 +73,28 @@ const Dsort = ({ dStats }) => {
                   Picks {sortKey === "picks" && (sortOrder === 1 ? "↓" : "↑")}
                 </button>
               </th>
+              <th className="px-1 py-1 sm:px-2 sm:py-2">
+                <button
+                  onClick={() => handleSort("touchdowns")}
+                  className="hover:text-blue-500 focus:outline-none text-xs sm:text-sm"
+                >
+                  TDs{" "}
+                  {sortKey === "touchdowns" && (sortOrder === 1 ? "↓" : "↑")}
+                </button>
+              </th>
             </tr>
           </thead>
           <tbody>
             {filteredStats.map(
-              ({ team, player, sacks, tackles, deflections, picks }) => {
+              ({
+                team,
+                player,
+                sacks,
+                tackles,
+                deflections,
+                picks,
+                touchdowns,
+              }) => {
                 return (
                   <tr key={player} className="hover:bg-gray-50">
                     <td className="px-1 py-1 sm:px-2 sm:py-2 text-center">
@@ -97,6 +114,9 @@ const Dsort = ({ dStats }) => {
                     </td>
                     <td className="px-1 py-1 sm:px-2 sm:py-2 text-center">
                       {picks}
+                    </td>
+                    <td className="px-1 py-1 sm:px-2 sm:py-2 text-center">
+                      {touchdowns}
                     </td>
                   </tr>
                 );

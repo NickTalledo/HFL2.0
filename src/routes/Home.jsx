@@ -9,18 +9,25 @@ function Home() {
             <h1 className="text-center text-6xl text-white">
               Welcome to the HFL
             </h1>
-            <img src="HFLlogo.jpeg" alt="HFL Logo" height={300} width={300} />
+            <img src="HFLlogo.jpeg" alt="HFL Logo" height={350} width={350} />
             <p className="max-w-[400px] text-center text-xl text-white sm:max-w-[600px] mx-8 lg:mx-0 mb-8">
-              Welcome to the start of a thrilling new season! As we kick off
-              this fresh chapter, get ready for a season filled with intense
-              matchups, breathtaking plays, and unforgettable moments. Our teams
-              are back in action, each with their eyes set on glory. Whether
-              you&apos;re a die-hard fan or new to the game, join us in
-              celebrating the spirit of competition, camaraderie, and the
-              pursuit of excellence. Stay tuned for exciting games, dramatic
-              comebacks, and the journey towards crowning our next champions.
-              Let the games begin, and may the best team prevail in this season
-              of excitement and sportsmanship!
+              Week 1 has set the stage for an exciting season of action-packed
+              football! In the first matchup, the KillaBeez faced off against
+              Team Blackout, and it was a closely contested game until the final
+              minutes. The KillaBeez took control, securing a three-score lead
+              and shutting down the Blackout offense for the remainder of the
+              game.
+              <br /> Next up, the Dragons took on the Horny Crabs, and it was
+              clear from the start that the Dragons were in charge. Andrew
+              Barra, the Dragons&apos;' elite quarterback, showcased his skills
+              by dissecting the Horny Crabs&apos;' defense.
+              <br />
+              In the final game of the week, the Gremlins displayed their
+              dominance with a commanding 43-19 victory over the Strawhats. The
+              Gremlins&apos;' strong performance left the Strawhats struggling
+              to respond on offense. As we move into Week 2, anticipation is
+              building for more thrilling matchups and standout plays. Stay
+              tuned for another week of football excitement!
             </p>
           </div>
           <img
@@ -52,74 +59,48 @@ function Home() {
                       </tr>
                     </thead>
                     <tbody>
-                      <tr className="border-b border-blue-500 bg-blue-300 text-neutral-800">
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          Strawhats
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0-0
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0
-                        </td>
-                      </tr>
                       <tr className="border-b border-purple-500 bg-purple-300 text-neutral-800">
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
                           Dragons
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0-0
+                          1-0
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0
+                          64
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0
+                          26
                         </td>
                       </tr>
+
                       <tr className="border-b border-green-500 bg-green-300 text-neutral-800">
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
                           Gremlins
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0-0
+                          1-0
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0
+                          43
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0
+                          19
                         </td>
                       </tr>
-                      <tr className="border-b border-red-500 bg-red-300 text-neutral-800">
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          Horny Crabs
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0-0
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0
-                        </td>
-                      </tr>
+
                       <tr className="border-b border-yellow-500 bg-yellow-300 text-neutral-800">
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
                           KillaBeez
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0-0
+                          1-0
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0
+                          59
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0
+                          40
                         </td>
                       </tr>
                       <tr className="border-b border-neutral-700 bg-neutral-800 text-neutral-50 dark:border-neutral-600 dark:bg-neutral-700">
@@ -127,13 +108,42 @@ function Home() {
                           Blackout
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0-0
+                          0-1
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0
+                          40
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0
+                          59
+                        </td>
+                      </tr>
+                      <tr className="border-b border-blue-500 bg-blue-300 text-neutral-800">
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          Strawhats
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          0-1
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          18
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          43
+                        </td>
+                      </tr>
+
+                      <tr className="border-b border-red-500 bg-red-300 text-neutral-800">
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          Horny Crabs
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          0-1
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          26
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          64
                         </td>
                       </tr>
                     </tbody>
@@ -170,11 +180,11 @@ function Home() {
                           Week 1
                         </td>
                         <td className="whitespace-nowrap font-medium border-r border-gray-600">
-                          KillaBeez vs Blackout <br /> Rhinos vs Dragons <br />{" "}
-                          Strawhats vs Gremlins
+                          KillaBeez vs Blackout <br /> Horny Crabs vs Dragons{" "}
+                          <br /> Strawhats vs Gremlins
                         </td>
                         <td className="whitespace-nowrap  font-medium">
-                          TBD <br /> TBD <br /> TBD
+                          59-40 <br /> 26-64 <br /> 18-43
                         </td>
                       </tr>
                       <tr className="border-b border-gray-600  text-neutral-800">

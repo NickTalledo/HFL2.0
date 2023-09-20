@@ -7,6 +7,15 @@ const Osort = ({ oStats }) => {
 
   const sortedStats = [...oStats].sort((a, b) => {
     if (sortKey == null) return 0;
+
+    if (sortKey === "ypc") {
+      const ypcA = a.yards ? a.yards / a.receptions : -Infinity;
+      const ypcB = b.yards ? b.yards / b.receptions : -Infinity;
+
+      const ypcComparison = ypcA - ypcB;
+      return sortOrder === 1 ? ypcComparison : -ypcComparison;
+    }
+
     return (a[sortKey] - b[sortKey]) * sortOrder;
   });
 
@@ -45,7 +54,7 @@ const Osort = ({ oStats }) => {
                   onClick={() => handleSort("receptions")}
                   className="hover:text-blue-500 focus:outline-none text-xs sm:text-sm"
                 >
-                  Receptions{" "}
+                  Recs{" "}
                   {sortKey === "receptions" && (sortOrder === 1 ? "↓" : "↑")}
                 </button>
               </th>
@@ -54,7 +63,25 @@ const Osort = ({ oStats }) => {
                   onClick={() => handleSort("yards")}
                   className="hover:text-blue-500 focus:outline-none text-xs sm:text-sm"
                 >
-                  Yards {sortKey === "yards" && (sortOrder === 1 ? "↓" : "↑")}
+                  Rec Yards{" "}
+                  {sortKey === "yards" && (sortOrder === 1 ? "↓" : "↑")}
+                </button>
+              </th>
+              <th className="px-1 py-1 sm:px-2 sm:py-2">
+                <button
+                  onClick={() => handleSort("ypc")}
+                  className="hover:text-blue-500 focus:outline-none text-xs sm:text-sm"
+                >
+                  YPC {sortKey === "ypc" && (sortOrder === 1 ? "↓" : "↑")}
+                </button>
+              </th>
+              <th className="px-1 py-1 sm:px-2 sm:py-2">
+                <button
+                  onClick={() => handleSort("Ryards")}
+                  className="hover:text-blue-500 focus:outline-none text-xs sm:text-sm"
+                >
+                  Rush Yards{" "}
+                  {sortKey === "Ryards" && (sortOrder === 1 ? "↓" : "↑")}
                 </button>
               </th>
               <th className="px-1 py-1 sm:px-2 sm:py-2">
@@ -62,7 +89,7 @@ const Osort = ({ oStats }) => {
                   onClick={() => handleSort("touchdowns")}
                   className="hover:text-blue-500 focus:outline-none text-xs sm:text-sm"
                 >
-                  Touchdowns{" "}
+                  TDs{" "}
                   {sortKey === "touchdowns" && (sortOrder === 1 ? "↓" : "↑")}
                 </button>
               </th>
@@ -70,7 +97,7 @@ const Osort = ({ oStats }) => {
           </thead>
           <tbody>
             {filteredStats.map(
-              ({ team, player, receptions, yards, touchdowns }) => {
+              ({ team, player, receptions, yards, Ryards, touchdowns }) => {
                 return (
                   <tr key={player} className="hover:bg-gray-50">
                     <td className="px-1 py-1 sm:px-2 sm:py-2 text-center">
@@ -84,6 +111,14 @@ const Osort = ({ oStats }) => {
                     </td>
                     <td className="px-1 py-1 sm:px-2 sm:py-2 text-center">
                       {yards}
+                    </td>
+                    <td className="px-1 py-1 sm:px-2 sm:py-2 text-center">
+                      {receptions === 0
+                        ? "N/A"
+                        : Number((yards / receptions).toFixed(1))}
+                    </td>
+                    <td className="px-1 py-1 sm:px-2 sm:py-2 text-center">
+                      {Ryards}
                     </td>
                     <td className="px-1 py-1 sm:px-2 sm:py-2 text-center">
                       {touchdowns}
