@@ -70,6 +70,7 @@ function Potw() {
             <p className="py-2 text-xl">Nick Talledo</p>
             <h4 className="py-4 text-orange-600 text-lg">Stats</h4>
             <p className="text-gray-800 py-1 text-lg">TACKLES: 5</p>
+            <p className="text-gray-800 py-1 text-lg">DEFLECTIONS: 1</p>
             <p className="text-gray-800 py-1 text-lg">PICKS: 3</p>
           </div>
         </div>

@@ -69,7 +69,7 @@ export const dStats = [
     player: "Nick Talledo",
     sacks: 0,
     tackles: 5,
-    deflections: 0,
+    deflections: 1,
     picks: 3,
     touchdowns: 0,
   },
