@@ -15,11 +15,11 @@ function News() {
           <h1 className="text-6xl text-center font-bold">News</h1>
           <p className="mt-4 text-sm ">
             <strong>TRADE ALERT 9/21/2023:</strong> The Strawhats are trading
-            Andrew Rossi to the Dragons for Vincent Nastri. I mean both players
-            did not produce much for their squads Week 1. Rossi with 1 catch for
-            8 and Vin with 2 catches for 20 but with more drops than catches.
-            I&apos;m unsure which team will benefit more here. We&apos;ll have
-            to see Week 3.
+            Andrew Rossi to the Dragons for Vincent Nastri. Both players did not
+            produce much for their squads Week 1. Rossi with 1 catch for 8 and
+            Vin with 2 catches for 20 but with more drops than catches. I&apos;m
+            unsure which team will benefit more here. We&apos;ll have to see
+            Week 3.
           </p>
           <p className="mt-4 text-sm">
             <strong>Week 2 9/19/2023:</strong> Fighting to not be last place,
