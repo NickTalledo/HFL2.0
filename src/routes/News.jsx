@@ -13,6 +13,14 @@ function News() {
       >
         <div className="bg-white dark:bg-gray-800 p-4 border border-gray-300 dark:border-gray-700 rounded-md max-w-[900px] mx-6 lg:mx-0 mt-6 mb-4">
           <h1 className="text-6xl text-center font-bold">News</h1>
+          <p className="mt-4 text-sm ">
+            <strong>TRADE ALERT 9/21/2023:</strong> The Strawhats are trading
+            Andrew Rossi to the Dragons for Vincent Nastri. I mean both players
+            did not produce much for their squads Week 1. Rossi with 1 catch for
+            8 and Vin with 2 catches for 20 but with more drops than catches.
+            I&apos;m unsure which team will benefit more here. We&apos;ll have
+            to see Week 3.
+          </p>
           <p className="mt-4 text-sm">
             <strong>Week 2 9/19/2023:</strong> Fighting to not be last place,
             Horny Crabs took the win. They finally had a full squad with their
@@ -27,7 +35,7 @@ function News() {
             Losing by almost 40 points? You need to do better than that to make
             it in this league. It didn&apos;t help that their quarterback
             couldn&apos;t even wake up for their game. Abysmal debut by them but
-            wow that Andrew Barra (Dragons QB) kid? Guy could throw.
+            wow that Andrew Barra kid? Guy could throw.
           </p>
         </div>
       </section>
