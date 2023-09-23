@@ -37,8 +37,8 @@ function Home() {
           />
         </section>
         <section>
-          <div className="flex flex-col sm:flex-row">
-            <div className="lg:w-2/5 overflow-x-auto sm:-mx-6 lg:mx-8">
+          <div className="flex flex-col xl:flex-row">
+            <div className="xl:w-full overflow-x-auto md:-mx-6 lg:mx-8">
               <div className="inline-block min-w-full py-2 sm:px-4 lg:px-8 max-w-full">
                 <div className="overflow-hidden px-2 ">
                   <table className="min-w-full text-center text-sm font-light shadow-lg">
@@ -69,7 +69,7 @@ function Home() {
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
                           64
                         </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                        <td className="whitespace-nowrap px-6 py-4 md:px-4 font-medium">
                           26
                         </td>
                       </tr>
@@ -151,7 +151,7 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div className="lg:w-3/5 overflow-x-auto sm:-mx-6 lg:mx-8">
+            <div className="xl:w-full overflow-x-auto md:-mx-6 lg:mx-8 mt-4 md:mt-0">
               <div className="inline-block min-w-full py-2 sm:px-4 lg:px-8 max-w-full">
                 <div className="overflow-hidden px-2 ">
                   <table className="min-w-full text-center text-sm font-light mt-8 lg:mt-0 shadow-lg border-l border-r border-t border-b border-black bg-sky-50">

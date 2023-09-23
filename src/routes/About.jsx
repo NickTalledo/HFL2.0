@@ -3,7 +3,7 @@ import Layout from "../components/Layout";
 function About() {
   return (
     <Layout>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center pt-10">
+      <div className="grid grid-cols-1 xl:grid-cols-2 gap-4 justify-items-center pt-10">
         <div className="text-center md:text-left md:pl-16">
           <p className="text-5xl font-bold mx-4">A little about us</p>
           <br />
@@ -43,7 +43,7 @@ function About() {
           </p>
           <br />
         </div>
-        <div className="lg:w-2/3 w-3/4 flex justify-center items-center lg:mb-0 mb-2">
+        <div className="mx-4 flex justify-center items-center lg:mb-0 mb-2">
           <video className="w-full h-auto" controls>
             <source src="/Video.mp4" type="video/mp4" />
             Your browser does not support the video tag.
