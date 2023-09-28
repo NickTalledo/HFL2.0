@@ -43,8 +43,8 @@ export const dStats = [
     sacks: 0,
     tackles: 7,
     deflections: 5,
-    picks: 0,
-    touchdowns: 0,
+    picks: 1,
+    touchdowns: 1,
   },
   {
     team: "Blackout",
@@ -277,7 +277,7 @@ export const dStats = [
     sacks: 2,
     tackles: 8,
     deflections: 3,
-    picks: 0,
+    picks: 1,
     touchdowns: 0,
   },
   {
