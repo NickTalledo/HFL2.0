@@ -13,6 +13,14 @@ function News() {
       >
         <div className="bg-white dark:bg-gray-800 p-4 border border-gray-300 dark:border-gray-700 rounded-md max-w-[900px] mx-6 lg:mx-0 mt-6 mb-4">
           <h1 className="text-6xl text-center font-bold">News</h1>
+          <p className="mt-4 text-sm">
+            <strong>Week 2 9/26/2023:</strong> What in the hell is this team
+            Dragons? They beat Blackout 60-40 which is by itself, a good margin.
+            But the kicker here is, that they lost a player for half their game
+            due to an injury. They were forced to play a 4v5, which in no way is
+            fair but wow did they pull through. 60-40 with the other team having
+            one more player? Give me a break.
+          </p>
           <p className="mt-4 text-sm ">
             <strong>TRADE ALERT 9/21/2023:</strong> The Strawhats are trading
             Andrew Rossi to the Dragons for Vincent Nastri. Both players did not

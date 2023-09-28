@@ -90,7 +90,7 @@ export const oStats = [
     touchdowns: 3,
   },
   {
-    team: "Strawhats",
+    team: "Dragons",
     player: "Andrew Rossi",
     receptions: 1,
     yards: 8,
@@ -154,7 +154,7 @@ export const oStats = [
     touchdowns: 1,
   },
   {
-    team: "Dragons",
+    team: "Strawhats",
     player: "Vincent Nastri",
     receptions: 2,
     yards: 20,

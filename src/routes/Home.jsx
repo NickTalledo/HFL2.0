@@ -11,23 +11,22 @@ function Home() {
             </h1>
             <img src="HFLlogo.jpeg" alt="HFL Logo" height={350} width={350} />
             <p className="max-w-[400px] text-center text-xl text-white sm:max-w-[600px] mx-8 lg:mx-0 mb-8">
-              Week 1 has set the stage for an exciting season of action-packed
-              football! In the first matchup, the KillaBeez faced off against
-              Team Blackout, and it was a closely contested game until the final
-              minutes. The KillaBeez took control, securing a three-score lead
-              and shutting down the Blackout offense for the remainder of the
-              game.
-              <br /> Next up, the Dragons took on the Horny Crabs, and it was
-              clear from the start that the Dragons were in charge. Andrew
-              Barra, the Dragons&apos;' elite quarterback, showcased his skills
-              by dissecting the Horny Crabs&apos;' defense.
-              <br />
-              In the final game of the week, the Gremlins displayed their
-              dominance with a commanding 43-19 victory over the Strawhats. The
-              Gremlins&apos;' strong performance left the Strawhats struggling
-              to respond on offense. As we move into Week 2, anticipation is
-              building for more thrilling matchups and standout plays. Stay
-              tuned for another week of football excitement!
+              Week 2 delivered some unexpected twists and thrilling matchups! In
+              the first game, the Horny Crabs and Strawhats, both looking to
+              bounce back from a tough Week 1, faced off. The Horny Crabs
+              emerged victorious with a 38-24 win, as the Strawhats&apos;'
+              offense struggled to find its rhythm. <br />
+              Next up, the Dragons took on Team Blackout, even after losing a
+              player to injury for a significant portion of the game. Despite
+              being down a player, the Dragons secured a 60-40 victory in a 4
+              vs. 5 matchup, demonstrating their resilience and skill. <br /> In
+              the highly anticipated clash between the KillaBeez and the
+              Gremlins, it was a close defensive battle throughout. With only
+              about a minute left, the KillaBeez seized the lead and secured the
+              win, maintaining their momentum from Week 1. As we head into Week
+              3, the competition is heating up, and every team is eager to prove
+              their mettle on the field. Stay tuned for more thrilling football
+              action!
             </p>
           </div>
           <img
@@ -64,71 +63,41 @@ function Home() {
                           Dragons
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          1-0
+                          2-0
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          64
+                          124
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 md:px-4 font-medium">
-                          26
+                          66
                         </td>
                       </tr>
-
-                      <tr className="border-b border-green-500 bg-green-300 text-neutral-800">
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          Gremlins
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          1-0
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          43
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          18
-                        </td>
-                      </tr>
-
                       <tr className="border-b border-yellow-500 bg-yellow-300 text-neutral-800">
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
                           KillaBeez
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          1-0
+                          2-0
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          100
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          74
+                        </td>
+                      </tr>
+                      <tr className="border-b border-green-500 bg-green-300 text-neutral-800">
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          Gremlins
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          1-1
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          84
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
                           59
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          40
-                        </td>
-                      </tr>
-                      <tr className="border-b border-neutral-700 bg-neutral-800 text-neutral-50 dark:border-neutral-600 dark:bg-neutral-700">
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          Blackout
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0-1
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          40
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          59
-                        </td>
-                      </tr>
-                      <tr className="border-b border-blue-500 bg-blue-300 text-neutral-800">
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          Strawhats
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0-1
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          18
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          43
                         </td>
                       </tr>
 
@@ -137,13 +106,41 @@ function Home() {
                           Horny Crabs
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0-1
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          26
+                          1-1
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
                           64
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          88
+                        </td>
+                      </tr>
+                      <tr className="border-b border-neutral-700 bg-neutral-800 text-neutral-50 dark:border-neutral-600 dark:bg-neutral-700">
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          Blackout
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          0-2
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          80
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          119
+                        </td>
+                      </tr>
+                      <tr className="border-b border-blue-500 bg-blue-300 text-neutral-800">
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          Strawhats
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          0-2
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          42
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          81
                         </td>
                       </tr>
                     </tbody>
@@ -196,7 +193,7 @@ function Home() {
                           <br /> Killabeez vs Gremlins
                         </td>
                         <td className="whitespace-nowrap font-medium">
-                          TBD <br /> TBD <br /> TBD
+                          38-24 <br /> 60-40 <br /> 41-34
                         </td>
                       </tr>
                       <tr className="border-b border-gray-600  text-neutral-800">
