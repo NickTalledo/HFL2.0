@@ -11,22 +11,28 @@ function Home() {
             </h1>
             <img src="HFLlogo.jpeg" alt="HFL Logo" height={350} width={350} />
             <p className="max-w-[400px] text-center text-xl text-white sm:max-w-[600px] mx-8 lg:mx-0 mb-8">
-              Week 2 delivered some unexpected twists and thrilling matchups! In
-              the first game, the Horny Crabs and Strawhats, both looking to
-              bounce back from a tough Week 1, faced off. The Horny Crabs
-              emerged victorious with a 38-24 win, as the Strawhats&apos;'
-              offense struggled to find its rhythm. <br />
-              Next up, the Dragons took on Team Blackout, even after losing a
-              player to injury for a significant portion of the game. Despite
-              being down a player, the Dragons secured a 60-40 victory in a 4
-              vs. 5 matchup, demonstrating their resilience and skill. <br /> In
-              the highly anticipated clash between the KillaBeez and the
-              Gremlins, it was a close defensive battle throughout. With only
-              about a minute left, the KillaBeez seized the lead and secured the
-              win, maintaining their momentum from Week 1. As we head into Week
-              3, the competition is heating up, and every team is eager to prove
-              their mettle on the field. Stay tuned for more thrilling football
-              action!
+              Week 3 brought some surprising results and intense matchups to the
+              field! In a game where the Dragons were expected to dominate, the
+              KillaBeez pulled off a remarkable victory, defeating the Dragons
+              45-8. The KillaBeez showcased their strength by shutting out the
+              Dragons completely in the second half, establishing themselves as
+              the only undefeated team with a 3-0 record.
+              <br />
+              The Strawhats and Blackout engaged in an exhilarating shootout,
+              with both teams displaying impressive offensive skills. The game
+              ended with a close score of 67-70, in favor of Blackout,
+              highlighting the competitiveness and high-scoring nature of the
+              match.
+              <br />
+              In a surprising upset, the Gremlins were defeated by the Horny
+              Crabs with a score of 57-43. The Horny Crabs demonstrated their
+              potential by playing exceptionally well when their full team was
+              present, securing a 2-win streak and causing a significant upset
+              in the league standings.
+              <br />
+              As we move into Week 4, the competition is fierce, and every team
+              is gearing up to make their mark. Stay tuned for more thrilling
+              moments and exciting games in the upcoming weeks! action!
             </p>
           </div>
           <img
@@ -58,46 +64,32 @@ function Home() {
                       </tr>
                     </thead>
                     <tbody>
-                      <tr className="border-b border-purple-500 bg-purple-300 text-neutral-800">
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          Dragons
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          2-0
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          124
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 md:px-4 font-medium">
-                          66
-                        </td>
-                      </tr>
                       <tr className="border-b border-yellow-500 bg-yellow-300 text-neutral-800">
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
                           KillaBeez
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          2-0
+                          3-0
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          100
+                          145
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          74
+                          82
                         </td>
                       </tr>
-                      <tr className="border-b border-green-500 bg-green-300 text-neutral-800">
+                      <tr className="border-b border-purple-500 bg-purple-300 text-neutral-800">
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          Gremlins
+                          Dragons
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          1-1
+                          2-1
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          84
+                          132
                         </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          59
+                        <td className="whitespace-nowrap px-6 py-4 md:px-4 font-medium">
+                          111
                         </td>
                       </tr>
 
@@ -106,27 +98,42 @@ function Home() {
                           Horny Crabs
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          1-1
+                          2-1
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          64
+                          121
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          88
+                          131
                         </td>
                       </tr>
+                      <tr className="border-b border-green-500 bg-green-300 text-neutral-800">
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          Gremlins
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          1-2
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          127
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          116
+                        </td>
+                      </tr>
+
                       <tr className="border-b border-neutral-700 bg-neutral-800 text-neutral-50 dark:border-neutral-600 dark:bg-neutral-700">
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
                           Blackout
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0-2
+                          1-2
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          80
+                          150
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          119
+                          186
                         </td>
                       </tr>
                       <tr className="border-b border-blue-500 bg-blue-300 text-neutral-800">
@@ -134,13 +141,13 @@ function Home() {
                           Strawhats
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0-2
+                          0-3
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          42
+                          109
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          81
+                          151
                         </td>
                       </tr>
                     </tbody>
@@ -205,7 +212,7 @@ function Home() {
                           <br /> Gremlins vs Horny Crabs
                         </td>
                         <td className="whitespace-nowrap font-medium">
-                          TBD <br /> TBD <br /> TBD
+                          8-45 <br /> 70-67 <br /> 57-43
                         </td>
                       </tr>
                       <tr className="border-b border-gray-600  text-neutral-800">
@@ -213,7 +220,8 @@ function Home() {
                           Week 4
                         </td>
                         <td className="whitespace-nowrap font-medium border-r border-gray-600">
-                          TBD <br /> TBD <br /> TBD
+                          Dragons vs Gremlins <br /> Horny Crabs vs Blackout{" "}
+                          <br /> KillaBeez vs Strawhats
                         </td>
                         <td className="whitespace-nowrap  font-medium">
                           TBD <br /> TBD <br /> TBD
