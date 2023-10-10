@@ -11,28 +11,27 @@ function Home() {
             </h1>
             <img src="HFLlogo.jpeg" alt="HFL Logo" height={350} width={350} />
             <p className="max-w-[400px] text-center text-xl text-white sm:max-w-[600px] mx-8 lg:mx-0 mb-8">
-              Week 3 brought some surprising results and intense matchups to the
-              field! In a game where the Dragons were expected to dominate, the
-              KillaBeez pulled off a remarkable victory, defeating the Dragons
-              45-8. The KillaBeez showcased their strength by shutting out the
-              Dragons completely in the second half, establishing themselves as
-              the only undefeated team with a 3-0 record.
+              Week 4 brought about some surprising results and intense
+              competition! The Dragons showcased their prowess by defeating the
+              Gremlins with a score of 52-39. Their superior gameplay throughout
+              the match allowed them to secure a convincing victory.
               <br />
-              The Strawhats and Blackout engaged in an exhilarating shootout,
-              with both teams displaying impressive offensive skills. The game
-              ended with a close score of 67-70, in favor of Blackout,
-              highlighting the competitiveness and high-scoring nature of the
-              match.
+              The Horny Crabs continued their winning streak by defeating
+              Blackout, making it their third consecutive win. Although the
+              Crabs had a slow start, Blackout&apos;s messy offense
+              couldn&apos;t outscore them, leading to another triumph for the
+              Horny Crabs.
               <br />
-              In a surprising upset, the Gremlins were defeated by the Horny
-              Crabs with a score of 57-43. The Horny Crabs demonstrated their
-              potential by playing exceptionally well when their full team was
-              present, securing a 2-win streak and causing a significant upset
-              in the league standings.
+              In a stunning upset, the lowest-ranked team, the Strawhats,
+              managed to beat the previously undefeated KillaBeez. The game
+              remained close throughout, and it ended dramatically with the
+              KillaBeez throwing a pick 6 in the red zone, resulting in a 57-48
+              victory for the Strawhats.
               <br />
-              As we move into Week 4, the competition is fierce, and every team
-              is gearing up to make their mark. Stay tuned for more thrilling
-              moments and exciting games in the upcoming weeks! action!
+              Week 4 proved that anything can happen on the field, and teams are
+              constantly evolving. With each match, the excitement and
+              anticipation for the next game only grow. Stay tuned for more
+              thrilling moments in the upcoming weeks of the season!
             </p>
           </div>
           <img
@@ -69,13 +68,13 @@ function Home() {
                           KillaBeez
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          3-0
+                          3-1
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          145
+                          193
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          82
+                          139
                         </td>
                       </tr>
                       <tr className="border-b border-purple-500 bg-purple-300 text-neutral-800">
@@ -83,13 +82,13 @@ function Home() {
                           Dragons
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          2-1
+                          3-1
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          132
+                          184
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 md:px-4 font-medium">
-                          111
+                          150
                         </td>
                       </tr>
 
@@ -98,13 +97,13 @@ function Home() {
                           Horny Crabs
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          2-1
+                          3-1
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          121
+                          178
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          131
+                          174
                         </td>
                       </tr>
                       <tr className="border-b border-green-500 bg-green-300 text-neutral-800">
@@ -112,28 +111,13 @@ function Home() {
                           Gremlins
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          1-2
+                          1-3
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          127
+                          166
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          116
-                        </td>
-                      </tr>
-
-                      <tr className="border-b border-neutral-700 bg-neutral-800 text-neutral-50 dark:border-neutral-600 dark:bg-neutral-700">
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          Blackout
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          1-2
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          150
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          186
+                          168
                         </td>
                       </tr>
                       <tr className="border-b border-blue-500 bg-blue-300 text-neutral-800">
@@ -141,13 +125,27 @@ function Home() {
                           Strawhats
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0-3
+                          1-3
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          109
+                          166
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          151
+                          199
+                        </td>
+                      </tr>
+                      <tr className="border-b border-neutral-700 bg-neutral-800 text-neutral-50 dark:border-neutral-600 dark:bg-neutral-700">
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          Blackout
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          1-3
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          193
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          243
                         </td>
                       </tr>
                     </tbody>
@@ -224,7 +222,7 @@ function Home() {
                           <br /> KillaBeez vs Strawhats
                         </td>
                         <td className="whitespace-nowrap  font-medium">
-                          TBD <br /> TBD <br /> TBD
+                          52-39 <br /> 57-43 <br /> 48-57
                         </td>
                       </tr>
                       <tr className="border-b border-gray-600  text-neutral-800">
