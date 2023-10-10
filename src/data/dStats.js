@@ -101,7 +101,7 @@ export const dStats = [
     touchdowns: 0,
   },
   {
-    team: "Dragons",
+    team: "Horny Crabs",
     player: "Andrew Rossi",
     sacks: 0,
     tackles: 8,
@@ -245,7 +245,7 @@ export const dStats = [
     touchdowns: 0,
   },
   {
-    team: "Horny Crabs",
+    team: "Dragons",
     player: "Klevik Mnela",
     sacks: 0,
     tackles: 2,

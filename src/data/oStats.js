@@ -90,7 +90,7 @@ export const oStats = [
     touchdowns: 6,
   },
   {
-    team: "Dragons",
+    team: "Horny Crabs",
     player: "Andrew Rossi",
     receptions: 11,
     yards: 182,
@@ -218,7 +218,7 @@ export const oStats = [
     touchdowns: 1,
   },
   {
-    team: "Horny Crabs",
+    team: "Dragons",
     player: "Klevik Mnela",
     receptions: 21,
     yards: 182,
