@@ -14,6 +14,12 @@ function News() {
         <div className="bg-white dark:bg-gray-800 p-4 border border-gray-300 dark:border-gray-700 rounded-md max-w-[900px] mx-6 lg:mx-0 mt-6 mb-4">
           <h1 className="text-6xl text-center font-bold">News</h1>
           <p className="mt-4 text-sm">
+            <strong>Week 5 10/20/2023:</strong> The Strawhats and Blackout are
+            just fighting for last place at this point. Do either of these teams
+            wanna make playoffs? I truly don&apos;t see a reason why either of
+            them should make it at this point. Hopefully they provide one soon.
+          </p>
+          <p className="mt-4 text-sm">
             <strong>Week 4 10/8/2023:</strong> The Strawhats beat the undefeated
             KillaBeez. Jared has made 3 trades rebuilding basically his entire
             roster and boy did it work. To be the last ranked team and become
