@@ -220,7 +220,7 @@ export const oStats = [
   {
     team: "Dragons",
     player: "Klevik Mnela",
-    receptions: 241,
+    receptions: 24,
     yards: 210,
     Ryards: 0,
     touchdowns: 5,
