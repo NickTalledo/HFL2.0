@@ -191,7 +191,7 @@ export const oStats = [
     receptions: 6,
     yards: 83,
     Ryards: 0,
-    touchdowns: 10,
+    touchdowns: 1,
   },
   {
     team: "Dragons",
