@@ -25,7 +25,7 @@ export const dStats = [
     sacks: 6,
     tackles: 25,
     deflections: 5,
-    picks: 3,
+    picks: 0,
     touchdowns: 0,
   },
   {
