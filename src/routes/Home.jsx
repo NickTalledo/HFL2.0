@@ -11,30 +11,36 @@ function Home() {
             </h1>
             <img src="HFLlogo.jpeg" alt="HFL Logo" height={350} width={350} />
             <p className="max-w-[400px] text-center text-xl text-white sm:max-w-[600px] mx-8 lg:mx-0 mb-8">
-              In Week 5, the Gremlins showcased their dominance in a commanding
-              victory against Blackout, securing a 58-42 win. The Gremlins&apos;
-              well-coordinated gameplay allowed them to outmaneuver Blackout
-              throughout the match. Blackout, on the other hand, faced
-              challenges in maintaining their defense and struggled to find
-              openings in the Gremlins&apos; defense. The defeat highlighted the
-              importance for Blackout to address their defensive strategies and
-              tighten their gameplay to make a significant impact in the league
-              standings.
+              Week 6 brought unexpected twists and intense matches, reshaping
+              the league standings and leaving fans in awe of the unpredictable
+              nature of the games.
               <br />
-              The Dragons continued their strong performance with a victory
-              against the Strawhats, finishing with a score of 60-41. Despite
-              the Strawhats&apos; recent success, the Dragons&apos; cohesive
-              team effort and precise execution proved too formidable. The
-              Strawhats, coming off a previous win, were unable to match the
-              Dragons&apos; intensity.
+              The Gremlins managed to secure a close win against the Strawhats
+              with a final score of 69-60. The game was tightly contested, and
+              it all came down to the final moments. However, critical mistakes
+              by the Strawhats, including a pick-six and giving up a safety in
+              back-to-back drives, cost them the game, highlighting the
+              significance of maintaining composure under pressure.
               <br />
-              The KillaBeez and the Crabs engaged in a tense battle, with the
-              game intensifying in the second half. What initially seemed like a
-              clear lead for the KillaBeez turned into a closely contested
-              match. The game concluded with a nail-biting score of 41-40 in
-              favor of the KillaBeez. With each match, the league becomes more
-              competitive, and teams are continually refining their strategies
-              to gain an edge.
+              The Dragons demonstrated their dominance by blowing out the Horny
+              Crabs with a resounding 80-47 victory. The Crabs faced early
+              challenges, leading to a change in quarterback. Despite the
+              change, they couldn&apos;t recover from the Dragons&apos; strong
+              start, showcasing the Dragons&apos; formidable offense and
+              defense.
+              <br />
+              In a stunning upset, the KillaBeez suffered a surprising loss to
+              Blackout, ending with a score of 64-72. This defeat, coming
+              against one of the bottom-ranked teams, raised doubts about the
+              KillaBeez&apos;s consistency and credibility. The unexpected
+              results have added an element of uncertainty to the league
+              rankings, making every upcoming game a potential game-changer.
+              <br />
+              With the rankings constantly shifting, Week 7 promises even more
+              excitement and intense competition. Fans eagerly anticipate the
+              next matchups, wondering which team will emerge victorious and how
+              these unexpected outcomes will continue to shape the league&apos;s
+              narrative.
             </p>
           </div>
           <img
@@ -66,61 +72,76 @@ function Home() {
                       </tr>
                     </thead>
                     <tbody>
-                      <tr className="border-b border-yellow-500 bg-yellow-300 text-neutral-800">
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          KillaBeez
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          4-1
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          234
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          179
-                        </td>
-                      </tr>
                       <tr className="border-b border-purple-500 bg-purple-300 text-neutral-800">
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
                           Dragons
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          4-1
+                          5-1
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          244
+                          324
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 md:px-4 font-medium">
-                          191
+                          238
+                        </td>
+                      </tr>
+                      <tr className="border-b border-yellow-500 bg-yellow-300 text-neutral-800">
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          KillaBeez
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          4-2
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          298
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          251
                         </td>
                       </tr>
 
-                      <tr className="border-b border-red-500 bg-red-300 text-neutral-800">
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          Horny Crabs
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          3-2
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          218
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          215
-                        </td>
-                      </tr>
                       <tr className="border-b border-green-500 bg-green-300 text-neutral-800">
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
                           Gremlins
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          2-3
+                          3-3
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          224
+                          293
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          210
+                          270
+                        </td>
+                      </tr>
+                      <tr className="border-b border-red-500 bg-red-300 text-neutral-800">
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          Horny Crabs
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          3-3
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          265
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          295
+                        </td>
+                      </tr>
+
+                      <tr className="border-b border-neutral-700 bg-neutral-800 text-neutral-50 dark:border-neutral-600 dark:bg-neutral-700">
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          Blackout
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          2-4
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          307
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          358
                         </td>
                       </tr>
                       <tr className="border-b border-blue-500 bg-blue-300 text-neutral-800">
@@ -128,27 +149,13 @@ function Home() {
                           Strawhats
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          1-4
+                          1-5
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          207
+                          267
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          259
-                        </td>
-                      </tr>
-                      <tr className="border-b border-neutral-700 bg-neutral-800 text-neutral-50 dark:border-neutral-600 dark:bg-neutral-700">
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          Blackout
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          1-4
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          235
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          294
+                          328
                         </td>
                       </tr>
                     </tbody>
@@ -247,6 +254,17 @@ function Home() {
                         <td className="whitespace-nowrap  font-medium border-r border-gray-600">
                           Gremlins vs Strawhats <br /> Dragons vs Horny Crabs{" "}
                           <br /> KillaBeez vs Blackout
+                        </td>
+                        <td className="whitespace-nowrap font-medium">
+                          69-60 <br /> 80-47 <br /> 64-72
+                        </td>
+                      </tr>
+                      <tr className="border-b border-gray-600  text-neutral-800">
+                        <td className="whitespace-nowrap  font-medium border-r border-gray-600">
+                          Week 7
+                        </td>
+                        <td className="whitespace-nowrap  font-medium border-r border-gray-600">
+                          TBD <br /> TBD <br /> TBD
                         </td>
                         <td className="whitespace-nowrap font-medium">
                           TBD <br /> TBD <br /> TBD
