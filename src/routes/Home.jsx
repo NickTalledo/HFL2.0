@@ -220,7 +220,7 @@ function Home() {
                           <br /> Gremlins vs Horny Crabs
                         </td>
                         <td className="whitespace-nowrap font-medium">
-                          8-45 <br /> 70-67 <br /> 57-43
+                          8-45 <br /> 70-67 <br /> 43-57
                         </td>
                       </tr>
                       <tr className="border-b border-gray-600  text-neutral-800">
