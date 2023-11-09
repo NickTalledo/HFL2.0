@@ -74,7 +74,7 @@ export const dStats = [
     touchdowns: 0,
   },
   {
-    team: "Horny Crabs",
+    team: "Gremlins",
     player: "Matt Grosse",
     sacks: 0,
     tackles: 6,
@@ -236,7 +236,7 @@ export const dStats = [
     touchdowns: 0,
   },
   {
-    team: "Gremlins",
+    team: "Horny Crabs",
     player: "Owen Ng",
     sacks: 0,
     tackles: 17,

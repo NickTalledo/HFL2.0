@@ -66,7 +66,7 @@ export const oStats = [
     touchdowns: 9,
   },
   {
-    team: "Horny Crabs",
+    team: "Gremlins",
     player: "Matt Grosse",
     receptions: 10,
     yards: 149,
@@ -210,7 +210,7 @@ export const oStats = [
     touchdowns: 7,
   },
   {
-    team: "Gremlins",
+    team: "Horny Crabs",
     player: "Owen Ng",
     receptions: 7,
     yards: 80,
