@@ -270,6 +270,28 @@ function Home() {
                           TBD <br /> TBD <br /> TBD
                         </td>
                       </tr>
+                      <tr className="border-b border-gray-600  text-neutral-800">
+                        <td className="whitespace-nowrap  font-medium border-r border-gray-600">
+                          Week 8
+                        </td>
+                        <td className="whitespace-nowrap  font-medium border-r border-gray-600">
+                          TBD <br /> TBD <br /> TBD
+                        </td>
+                        <td className="whitespace-nowrap font-medium">
+                          TBD <br /> TBD <br /> TBD
+                        </td>
+                      </tr>
+                      <tr className="border-b border-gray-600  text-neutral-800">
+                        <td className="whitespace-nowrap  font-medium border-r border-gray-600">
+                          Week 9
+                        </td>
+                        <td className="whitespace-nowrap  font-medium border-r border-gray-600">
+                          TBD <br /> TBD <br /> TBD
+                        </td>
+                        <td className="whitespace-nowrap font-medium">
+                          TBD <br /> TBD <br /> TBD
+                        </td>
+                      </tr>
                     </tbody>
                   </table>
                 </div>

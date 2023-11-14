@@ -12,10 +12,10 @@ export const oStats = [
   {
     team: "Dragons",
     player: "Anthony Perlongo",
-    receptions: 53,
-    yards: 881,
+    receptions: 65,
+    yards: 1047,
     Ryards: 26,
-    touchdowns: 18,
+    touchdowns: 19,
   },
   {
     team: "Gremlins",
