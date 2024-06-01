@@ -15,7 +15,7 @@ export const oStats = [
     dtouchdowns: 0,
   },
   {
-    team: "Dragons",
+    team: "Penjamin Bros",
     player: "Anthony Perlongo",
     receptions: 0,
     yards: 0,
@@ -340,7 +340,7 @@ export const oStats = [
     dtouchdowns: 0,
   },
   {
-    team: "T",
+    team: "Men in Black",
     player: "Antonio Curcio",
     receptions: 0,
     yards: 0,
