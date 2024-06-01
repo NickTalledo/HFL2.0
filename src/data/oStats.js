@@ -145,7 +145,7 @@ export const oStats = [
     dtouchdowns: 0,
   },
   {
-    team: "T",
+    team: "Men in Black",
     player: "Andrew Rossi",
     receptions: 0,
     yards: 0,
@@ -327,7 +327,7 @@ export const oStats = [
     dtouchdowns: 0,
   },
   {
-    team: "T",
+    team: "Men in Black",
     player: "Nick Dinicola",
     receptions: 0,
     yards: 0,
@@ -379,7 +379,7 @@ export const oStats = [
     dtouchdowns: 0,
   },
   {
-    team: "T",
+    team: "Men in Black",
     player: "Ben Ortiz",
     receptions: 0,
     yards: 0,
@@ -444,7 +444,7 @@ export const oStats = [
     dtouchdowns: 0,
   },
   {
-    team: "T",
+    team: "Men in Black",
     player: "Nick Cupelli",
     receptions: 0,
     yards: 0,
@@ -457,7 +457,7 @@ export const oStats = [
     dtouchdowns: 0,
   },
   {
-    team: "T",
+    team: "Men in Black",
     player: "Jonny Capobianco",
     receptions: 0,
     yards: 0,
@@ -483,7 +483,7 @@ export const oStats = [
     dtouchdowns: 0,
   },
   {
-    team: "T",
+    team: "Men in Black",
     player: "Justin Kotowitz",
     receptions: 0,
     yards: 0,
@@ -522,7 +522,7 @@ export const oStats = [
     dtouchdowns: 0,
   },
   {
-    team: "Seamen",
+    team: "Men in Black",
     player: "Joe Marino",
     receptions: 0,
     yards: 0,
@@ -535,7 +535,7 @@ export const oStats = [
     dtouchdowns: 0,
   },
   {
-    team: "T",
+    team: "Men in Black",
     player: "Jack Moran",
     receptions: 0,
     yards: 0,

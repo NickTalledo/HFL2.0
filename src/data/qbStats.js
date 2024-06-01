@@ -52,7 +52,7 @@ export const qbStats = [
     Ptouchdowns: 0,
   },
   {
-    team: "T",
+    team: "Men in Black",
     player: "Nick Dinicola",
     completions: 0,
     Ryards: 0,

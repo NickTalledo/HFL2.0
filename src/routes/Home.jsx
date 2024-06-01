@@ -15,12 +15,12 @@ function Home() {
                 Welcome to the kickoff of an exhilarating new season! The
                 anticipation is electric as the Penjamin Bros face off against
                 the Seamen, the Blue Chews take on the Redskins, and the Bulls
-                battle it out with T. Early power rankings have the Penjamin
-                Bros, T, and Seamen leading the pack in Tier A, while the Bulls
-                and Blue Chews are positioned in Tier B. The Redskins are set to
-                defy expectations from Tier C. Get ready for a season packed
-                with intense rivalries, strategic plays, and unforgettable
-                moments.
+                battle it out with Men in Black. Early power rankings have the
+                Penjamin Bros, Men in Black, and Seamen leading the pack in Tier
+                A, while the Bulls and Blue Chews are positioned in Tier B. The
+                Redskins are set to defy expectations from Tier C. Get ready for
+                a season packed with intense rivalries, strategic plays, and
+                unforgettable moments.
               </p>
             </p>
           </div>
@@ -67,17 +67,17 @@ function Home() {
                           0
                         </td>
                       </tr>
-                      <tr className="border-b border-yellow-500 bg-yellow-300 text-neutral-800">
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          T
+                      <tr className="border-b border-black bg-black text-neutral-800">
+                        <td className="whitespace-nowrap text-white px-6 py-4 font-medium">
+                          Men in Black
                         </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                        <td className="whitespace-nowrap text-white px-6 py-4 font-medium">
                           0-0
                         </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                        <td className="whitespace-nowrap text-white px-6 py-4 font-medium">
                           0
                         </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                        <td className="whitespace-nowrap text-white px-6 py-4 font-medium">
                           0
                         </td>
                       </tr>
@@ -172,7 +172,7 @@ function Home() {
                         </td>
                         <td className="whitespace-nowrap font-medium border-r border-gray-600">
                           Penjamin Bros vs Seamen <br /> Blue Chews vs Redskins{" "}
-                          <br /> Bulls vs T
+                          <br /> Bulls vs Men in Black
                         </td>
                         <td className="whitespace-nowrap  font-medium">
                           TBD-TBD <br /> TBD-TBD <br /> TBD-TBD

@@ -18,11 +18,12 @@ function News() {
             Aspromonte, they are viewed as the clear underdogs this season. Many
             believe that Aspromonte&apos;s questionable drafting choices have
             left the team with a significant uphill battle, landing them in Tier
-            C. Meanwhile, the Bulls are set to battle T in a game that could set
-            the tone for both teams. The early power rankings place Penjamin
-            Bros, T, and Seamen in Tier A, with the Bulls and Blue Chews
-            trailing in Tier B. Aspromonte&apos;s Redskins will need a miracle
-            to climb out of the bottom tier and prove their critics wrong.
+            C. Meanwhile, the Bulls are set to battle Men in Black in a game
+            that could set the tone for both teams. The early power rankings
+            place Penjamin Bros, Men in Black, and Seamen in Tier A, with the
+            Bulls and Blue Chews trailing in Tier B. Aspromonte&apos;s Redskins
+            will need a miracle to climb out of the bottom tier and prove their
+            critics wrong.
           </p>
         </div>
       </section>
