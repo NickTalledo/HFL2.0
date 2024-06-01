@@ -444,7 +444,7 @@ export const oStats = [
     dtouchdowns: 0,
   },
   {
-    team: "Men in Black",
+    team: "Seamen",
     player: "Nick Cupelli",
     receptions: 0,
     yards: 0,
@@ -522,7 +522,7 @@ export const oStats = [
     dtouchdowns: 0,
   },
   {
-    team: "Men in Black",
+    team: "Seamen",
     player: "Joe Marino",
     receptions: 0,
     yards: 0,
