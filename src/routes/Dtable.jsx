@@ -1,5 +1,5 @@
 import Layout from "../components/Layout";
-import { dStats } from "../data/dStats";
+import { oStats } from "../data/oStats";
 import Dsort from "../tools/Dsort";
 
 function Dtable() {
@@ -9,7 +9,7 @@ function Dtable() {
       <p className="text-center text-xl mt-3">
         Click on the titles of the stats to sort them!
       </p>
-      <Dsort dStats={dStats} />
+      <Dsort oStats={oStats} />
     </Layout>
   );
 }

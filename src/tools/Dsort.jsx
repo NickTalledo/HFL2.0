@@ -1,11 +1,11 @@
 import { useState } from "react";
 
-const Dsort = ({ dStats }) => {
+const Dsort = ({ oStats }) => {
   const [sortKey, setSortKey] = useState(null);
   const [sortOrder, setSortOrder] = useState(1);
   const [searchTerm, setSearchTerm] = useState("");
 
-  const sortedStats = [...dStats].sort((a, b) => {
+  const sortedStats = [...oStats].sort((a, b) => {
     if (sortKey == null) return 0;
     return (a[sortKey] - b[sortKey]) * sortOrder;
   });
@@ -75,7 +75,7 @@ const Dsort = ({ dStats }) => {
               </th>
               <th className="px-1 py-1 sm:px-2 sm:py-2">
                 <button
-                  onClick={() => handleSort("touchdowns")}
+                  onClick={() => handleSort("dtouchdowns")}
                   className="hover:text-blue-500 focus:outline-none text-xs sm:text-sm"
                 >
                   TDs{" "}
@@ -93,7 +93,7 @@ const Dsort = ({ dStats }) => {
                 tackles,
                 deflections,
                 picks,
-                touchdowns,
+                dtouchdowns,
               }) => {
                 return (
                   <tr key={player} className="hover:bg-gray-50">
@@ -116,7 +116,7 @@ const Dsort = ({ dStats }) => {
                       {picks}
                     </td>
                     <td className="px-1 py-1 sm:px-2 sm:py-2 text-center">
-                      {touchdowns}
+                      {dtouchdowns}
                     </td>
                   </tr>
                 );
