@@ -438,9 +438,9 @@ export const oStats = [
     Ryards: 0,
     touchdowns: 0,
     sacks: 0,
-    tackles: 0,
+    tackles: 1,
     deflections: 0,
-    picks: 0,
+    picks: 1,
     dtouchdowns: 0,
   },
   {
