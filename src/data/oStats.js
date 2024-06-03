@@ -202,7 +202,7 @@ export const oStats = [
     receptions: 7,
     yards: 79,
     Ryards: 0,
-    touchdowns: 1,
+    touchdowns: 2,
     sacks: 0,
     tackles: 0,
     deflections: 1,
