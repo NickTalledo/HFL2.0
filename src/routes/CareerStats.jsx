@@ -2,7 +2,7 @@ import Layout from "../components/Layout";
 
 function CareerStats() {
   const backgroundStyle = {
-    backgroundImage: `url(https://joyrideharness.com/cdn/shop/articles/AdobeStock_274099078.jpg?v=1620400547)`,
+    backgroundImage: `url(/RatDisney.jpg)`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center center",
@@ -14,7 +14,7 @@ function CareerStats() {
           Career Stats
         </h1>
         <p className="text-3xl text-center font-bold text-white">
-          In progress...enjoy this dog for now
+          In progress...enjoy this grown ass man for now
         </p>
       </section>
     </Layout>
