@@ -10,24 +10,22 @@ function Home() {
               Welcome to the HFL
             </h1>
             <img src="HFL-Logo.png" alt="HFL Logo" height={350} width={350} />
-            <p className="max-w-[400px] text-center text-xl text-white sm:max-w-[600px] mx-8 lg:mx-0 mb-8">
-              <p className="max-w-[400px] text-center text-xl text-white sm:max-w-[600px] mx-8 lg:mx-0 mb-8">
-                The first week of the new season delivered some surprising
-                outcomes and standout performances. The Penjamin Bros dominated
-                the Seamen with a convincing 47-26 victory. Andrew Barra, their
-                quarterback, led the pack with a flawless game, throwing no
-                interceptions and showcasing his leadership on the field. In a
-                shocking turn of events, the Redskins, drafted by Stephen
-                Aspromonte and viewed as the underdogs, stunned everyone by
-                defeating the Blue Chews 39-20. The Redskins&apos; defense was
-                ironclad, racking up a total of 7 combined team interceptions,
-                proving that they are not to be underestimated. The Bulls
-                secured a 48-27 win over the Men in Black, who struggled without
-                their starting quarterback and couldn&apos;t find their rhythm
-                throughout the game. Week 1 has set the stage for an exciting
-                and unpredictable season. Stay tuned as we head into Week 2,
-                eager to see how the teams continue to perform and adapt.
-              </p>
+            <p className="max-w-[400px] text-center text-xl text-white sm:max-w-[600px] mx-6 lg:mx-0 mb-8">
+              The first week of the new season delivered some surprising
+              outcomes and standout performances. The Penjamin Bros dominated
+              the Seamen with a convincing 47-26 victory. Andrew Barra, their
+              quarterback, led the pack with a flawless game, throwing no
+              interceptions and showcasing his leadership on the field. In a
+              shocking turn of events, the Redskins, drafted by Stephen
+              Aspromonte and viewed as the underdogs, stunned everyone by
+              defeating the Blue Chews 39-20. The Redskins&apos; defense was
+              ironclad, racking up a total of 7 combined team interceptions,
+              proving that they are not to be underestimated. The Bulls secured
+              a 48-27 win over the Men in Black, who struggled without their
+              starting quarterback and couldn&apos;t find their rhythm
+              throughout the game. Week 1 has set the stage for an exciting and
+              unpredictable season. Stay tuned as we head into Week 2, eager to
+              see how the teams continue to perform and adapt.
             </p>
           </div>
           <img
