@@ -39,7 +39,7 @@ function Home() {
             <div className="xl:w-full overflow-x-auto md:-mx-6 lg:mx-8">
               <div className="inline-block min-w-full py-2 sm:px-4 lg:px-8 max-w-full">
                 <div className="overflow-hidden px-2 ">
-                  <table className="min-w-full text-center text-sm font-light shadow-lg">
+                  <table className="min-w-full text-center text-sm font-light shadow-xl">
                     <thead className="border-b font-medium dark:border-neutral-500">
                       <tr>
                         <th scope="col" className="px-2 py-4">
@@ -99,18 +99,18 @@ function Home() {
                           20
                         </td>
                       </tr>
-                      <tr className="border-b border-black bg-black text-neutral-800">
-                        <td className="whitespace-nowrap text-white px-6 py-4 font-medium">
-                          Men in Black
+                      <tr className="border-b border-blue-500 bg-blue-300 text-neutral-800 dark:border-neutral-600 dark:bg-neutral-700">
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          Blue Chews
                         </td>
-                        <td className="whitespace-nowrap text-white px-6 py-4 font-medium">
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
                           0-1
                         </td>
-                        <td className="whitespace-nowrap text-white px-6 py-4 font-medium">
-                          27
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          20
                         </td>
-                        <td className="whitespace-nowrap text-white px-6 py-4 font-medium">
-                          48
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          39
                         </td>
                       </tr>
                       <tr className="border-b border-white bg-white text-neutral-800">
@@ -127,19 +127,18 @@ function Home() {
                           47
                         </td>
                       </tr>
-
-                      <tr className="border-b border-blue-500 bg-blue-300 text-neutral-800 dark:border-neutral-600 dark:bg-neutral-700">
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          Blue Chews
+                      <tr className="border-b border-black bg-black text-neutral-800">
+                        <td className="whitespace-nowrap text-white px-6 py-4 font-medium">
+                          Men in Black
                         </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                        <td className="whitespace-nowrap text-white px-6 py-4 font-medium">
                           0-1
                         </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          20
+                        <td className="whitespace-nowrap text-white px-6 py-4 font-medium">
+                          27
                         </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          39
+                        <td className="whitespace-nowrap text-white px-6 py-4 font-medium">
+                          48
                         </td>
                       </tr>
                     </tbody>
