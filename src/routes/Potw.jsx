@@ -21,7 +21,7 @@ function Potw() {
         <div className="flex justify-center items-center">
           <div className="lg:w-2/3 w-4/5 mb-10">
             <div className="card-background" style={cardWithLogoStyle}>
-              <div className="text-center shadow-lg p-6 rounded-xl lg:my-6 mt-6 relative card-content">
+              <div className="text-center shadow-lg p-6 rounded-xl my-6 mt-6 relative card-content">
                 <img src="PenjaminBrosLogo.png" alt="Logo" className="logo" />
                 <h3 className="text-lg font-medium pt-4 pb-1 text-white mt-4 lg:mt-0">
                   <strong>Player of the Week</strong>
