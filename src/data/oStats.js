@@ -254,11 +254,11 @@ export const oStats = [
     receptions: 5,
     yards: 32,
     Ryards: 0,
-    touchdowns: 0,
+    touchdowns: 1,
     sacks: 0,
     tackles: 6,
     deflections: 2,
-    picks: 0,
+    picks: 1,
     dtouchdowns: 0,
   },
   {

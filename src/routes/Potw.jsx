@@ -11,68 +11,69 @@ function Potw() {
     position: "relative",
   };
 
-  const logoStyle = {
-    position: "absolute",
-    top: "10px",
-    left: "10px",
-    width: "60px",
-    height: "60px",
-  };
-
   return (
     <Layout>
       <section style={{ ...backgroundStyle, paddingBottom: "2rem" }}>
-        <h1 className="text-6xl text-center font-bold text-white pt-2">
-          Week 1
+        <h1 className="star-wars-heading text-6xl text-center font-bold text-white pt-2 drop-shadow-lg tracking-widest mb-4">
+          <p className="mt-4">Week 1</p>
         </h1>
-        <div className="flex justify-center items-center ">
-          <div className="lg:w-2/3 w-4/5">
-            <div
-              className="text-center shadow-lg p-10 rounded-xl lg:my-10 mt-10 bg-white transition-transform transform hover:scale-105 relative"
-              style={cardWithLogoStyle}
-            >
-              <img src="HFL-Logo.png" alt="Logo" style={logoStyle} />
-              <h3 className="text-xl font-medium pt-8 pb-2">
-                Player of the Week
-              </h3>
-              <p className="py-2 text-xl">TBD</p>
-              <h4 className="py-4 text-black text-lg">Stats</h4>
-              <p className="text-gray-800 py-1 text-lg">TBD </p>
-              <p className="text-gray-800 py-1 text-lg">TBD </p>
-              <p className="text-gray-800 py-1 text-lg">TBD</p>
+
+        <div className="flex justify-center items-center">
+          <div className="lg:w-2/3 w-4/5 mb-10">
+            <div className="card-background" style={cardWithLogoStyle}>
+              <div className="text-center shadow-lg p-6 rounded-xl lg:my-6 mt-6 relative card-content">
+                <img src="PenjaminBrosLogo.png" alt="Logo" className="logo" />
+                <h3 className="text-lg font-medium pt-4 pb-1 text-white mt-4 lg:mt-0">
+                  <strong>Player of the Week</strong>
+                </h3>
+                <p className="py-1 text-lg text-white">Andrew Barra</p>
+                <h4 className="py-2 text-white text-md">
+                  <strong>Stats</strong>
+                </h4>
+                <p className="text-white py-1 text-md">25 Completions</p>
+                <p className="text-white py-1 text-md">357 Passing Yards</p>
+                <p className="text-white py-1 text-md">7 Passing Touchdowns</p>
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="lg:flex gap-10 justify-center">
+        <div className="lg:flex gap-10 justify-center mb-10">
           <div
-            className="text-center shadow-lg p-10 rounded-xl my-10 bg-white flex-2 transition-transform transform hover:scale-105 lg:w-2/5 w-4/5 mx-auto relative"
+            className="card-background lg:w-2/5 w-4/5 mx-auto mb-10 relative"
             style={cardWithLogoStyle}
           >
-            <img src="HFL-Logo.png" alt="Logo" style={logoStyle} />
-            <h3 className="text-xl font-medium pt-8 pb-2">
-              Offensive Player of the Week
-            </h3>
-            <p className="py-2 text-xl">TBD</p>
-            <h4 className="py-4 text-black text-lg">Stats</h4>
-            <p className="text-gray-800 py-1 text-lg">TBD</p>
-            <p className="text-gray-800 py-1 text-lg">TBD</p>
-            <p className="text-gray-800 py-1 text-lg">TBD</p>
+            <div className="text-center shadow-lg p-6 rounded-xl my-6 flex-2 relative card-content">
+              <img src="PenjaminBrosLogo.png" alt="Logo" className="logo" />
+              <h3 className="text-lg font-medium pt-4 pb-1 text-white mt-4 lg:mt-0">
+                <strong>Offensive Player of the Week</strong>
+              </h3>
+              <p className="py-1 text-lg text-white">Ryan Barra</p>
+              <h4 className="py-2 text-white text-md">
+                <strong>Stats</strong>
+              </h4>
+              <p className="text-white py-1 text-md">8 Receptions</p>
+              <p className="text-white py-1 text-md">178 Receiving Yards</p>
+              <p className="text-white py-1 text-md">2 Touchdowns</p>
+            </div>
           </div>
-
           <div
-            className="text-center shadow-lg p-10 lg:my-10 rounded-xl  bg-white flex-2 transition-transform transform hover:scale-105 lg:w-2/5 w-4/5 mx-auto relative"
+            className="card-background lg:w-2/5 w-4/5 mx-auto mb-10 relative"
             style={cardWithLogoStyle}
           >
-            <img src="HFL-Logo.png" alt="Logo" style={logoStyle} />
-            <h3 className="text-xl font-medium pt-8 pb-2">
-              Defensive Player of the Week
-            </h3>
-            <p className="py-2 text-xl">TBD</p>
-            <h4 className="py-4 text-black text-lg">Stats</h4>
-            <p className="text-gray-800 py-1 text-lg">TBD</p>
-            <p className="text-gray-800 py-1 text-lg">TBD</p>
-            <p className="text-gray-800 py-1 text-lg">TBD</p>
+            <div className="text-center shadow-lg p-6 my-6 rounded-xl flex-2 relative card-content">
+              <img src="RedskinsLogo.png" alt="Logo" className="logo" />
+              <h3 className="text-lg font-medium pt-4 pb-1 text-white mt-4 lg:mt-0">
+                <strong>Defensive Player of the Week</strong>
+              </h3>
+              <p className="py-1 text-lg text-white">Danny Gonzalez</p>
+              <h4 className="py-2 text-white text-md">
+                <strong>Stats</strong>
+              </h4>
+              <p className="text-white py-1 text-md">3 Deflections</p>
+              <p className="text-white py-1 text-md">3 Picks</p>
+              <p className="text-white py-1 text-md">2 Tackles</p>
+            </div>
           </div>
         </div>
       </section>

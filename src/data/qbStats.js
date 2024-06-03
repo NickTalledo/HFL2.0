@@ -39,7 +39,7 @@ export const qbStats = [
     Pyards: 188,
     picks: 2,
     Rtouchdowns: 0,
-    Ptouchdowns: 5,
+    Ptouchdowns: 6,
   },
   {
     team: "Seamen",
