@@ -187,8 +187,8 @@ function Home() {
                           Week 2
                         </td>
                         <td className="whitespace-nowrap font-medium border-r border-gray-600">
-                          Penjamin Bros vs Bulls <br /> Redskins vs Men in Black{" "}
-                          <br /> Blue Chews vs Seamen
+                          Penjamin Bros vs Men in Black <br /> Redskins vs
+                          Seamen <br /> Bulls vs Blue Chews
                         </td>
                         <td className="whitespace-nowrap  font-medium">
                           TBD - TBD <br /> TBD - TBD <br /> TBD - TBD
