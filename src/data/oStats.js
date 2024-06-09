@@ -264,8 +264,8 @@ export const oStats = [
   {
     team: "Redskins",
     player: "Matt Rossi",
-    receptions: 1,
-    yards: 10,
+    receptions: 3,
+    yards: 45,
     Ryards: 0,
     touchdowns: 0,
     sacks: 0,
