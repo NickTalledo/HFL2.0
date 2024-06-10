@@ -14,6 +14,18 @@ function News() {
         <div className="bg-white dark:bg-gray-800 p-4 border border-gray-300 dark:border-gray-700 rounded-md max-w-[900px] mx-6 lg:mx-0 mt-6 mb-4">
           <h1 className="text-6xl text-center font-bold">News</h1>
           <p className="mt-4 text-sm">
+            <strong>Week 2 6/9/2024:</strong> Anthony Perlongo of the Penjamin
+            Bros delivered an absolute masterclass on the field with 7
+            receptions, 231 yards, and 5 touchdowns. It&apos;s clear that
+            Perlongo is a game-changer, effortlessly tearing through the Men in
+            Black&apos;s defense like it was non-existent. This performance
+            isn&apos;t just impressive; it&apos;s a statement. Any doubts about
+            his capabilities should be thoroughly dispelled. If the Penjamin
+            Bros continue to utilize him like this, they are undoubtedly the
+            team to beat this season.
+          </p>
+
+          <p className="mt-4 text-sm">
             <strong>Week 1 6/3/2024:</strong> Andrew Barra of the Penjamin Bros
             showcased why he&apos;s one of the top quarterbacks in the league.
             Leading his team to a 47-26 victory over the Seamen, Barra played a

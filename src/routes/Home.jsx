@@ -11,21 +11,23 @@ function Home() {
             </h1>
             <img src="HFL-Logo.png" alt="HFL Logo" height={350} width={350} />
             <p className="max-w-[400px] text-center text-xl text-white sm:max-w-[600px] mx-6 lg:mx-0 mb-8">
-              The first week of the new season delivered some surprising
-              outcomes and standout performances. The Penjamin Bros dominated
-              the Seamen with a convincing 47-26 victory. Andrew Barra, their
-              quarterback, led the pack with a flawless game, throwing no
-              interceptions and showcasing his leadership on the field. In a
-              shocking turn of events, the Redskins, drafted by Stephen
-              Aspromonte and viewed as the underdogs, stunned everyone by
-              defeating the Blue Chews 39-20. The Redskins&apos; defense was
-              ironclad, racking up a total of 7 combined team interceptions,
-              proving that they are not to be underestimated. The Bulls secured
-              a 48-27 win over the Men in Black, who struggled without their
-              starting quarterback and couldn&apos;t find their rhythm
-              throughout the game. Week 1 has set the stage for an exciting and
-              unpredictable season. Stay tuned as we head into Week 2, eager to
-              see how the teams continue to perform and adapt.
+              The Penjamin Bros continued their dominant streak by thrashing the
+              Men in Black 58-26. The game ended prematurely as the Men in Black
+              chose to forfeit before the completion of the third quarter,
+              unable to get anything going against the Penjamin Bros&apos;
+              relentless assault. In an electrifying shootout, the Redskins
+              defeated the Seamen 55-48. Trailing by two scores with the Seamen
+              starting the second half with the ball, the Redskins mounted an
+              impressive comeback. Redskins are proving their doubters wrong,
+              showing their resilience and ability to perform under pressure.
+              The Bulls secured a victory over the Blue Chews with a final score
+              of 56-47. Despite the close end score, the Bulls maintained
+              control throughout the game, never allowing the Blue Chews to
+              close the gap significantly. Their consistent performance is
+              keeping them in strong contention early in the season. Week 2 has
+              been full of surprises and standout performances. As we move into
+              Week 3, the competition is heating up, and fans can look forward
+              to more intense matchups and thrilling moments.
             </p>
           </div>
           <img
@@ -62,13 +64,13 @@ function Home() {
                           Penjamin Bros
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          1-0
+                          2-0
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          47
+                          105
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 md:px-4 font-medium">
-                          26
+                          52
                         </td>
                       </tr>
                       <tr className="border-b border-gray-500 bg-gray-300 text-neutral-800">
@@ -76,13 +78,13 @@ function Home() {
                           Bulls
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          1-0
+                          2-0
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          48
+                          104
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          27
+                          74
                         </td>
                       </tr>
                       <tr className="border-b border-red-500 bg-red-300 text-neutral-800">
@@ -90,13 +92,13 @@ function Home() {
                           Redskins
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          1-0
+                          2-0
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          39
+                          94
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          20
+                          68
                         </td>
                       </tr>
                       <tr className="border-b border-blue-500 bg-blue-300 text-neutral-800 dark:border-neutral-600 dark:bg-neutral-700">
@@ -104,13 +106,13 @@ function Home() {
                           Blue Chews
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0-1
+                          0-2
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          20
+                          67
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          39
+                          95
                         </td>
                       </tr>
                       <tr className="border-b border-white bg-white text-neutral-800">
@@ -118,13 +120,13 @@ function Home() {
                           Seamen
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0-1
+                          0-2
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          26
+                          74
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          47
+                          102
                         </td>
                       </tr>
                       <tr className="border-b border-black bg-black text-neutral-800">
@@ -132,13 +134,13 @@ function Home() {
                           Men in Black
                         </td>
                         <td className="whitespace-nowrap text-white px-6 py-4 font-medium">
-                          0-1
+                          0-2
                         </td>
                         <td className="whitespace-nowrap text-white px-6 py-4 font-medium">
-                          27
+                          45
                         </td>
                         <td className="whitespace-nowrap text-white px-6 py-4 font-medium">
-                          48
+                          106
                         </td>
                       </tr>
                     </tbody>
@@ -191,7 +193,7 @@ function Home() {
                           Seamen <br /> Bulls vs Blue Chews
                         </td>
                         <td className="whitespace-nowrap  font-medium">
-                          TBD - TBD <br /> TBD - TBD <br /> TBD - TBD
+                          58 - 18 <br /> 55-48 <br /> 56-47
                         </td>
                       </tr>
                       <tr className="border-b border-gray-600 text-neutral-800 ">
