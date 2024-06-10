@@ -137,7 +137,7 @@ function Home() {
                           0-2
                         </td>
                         <td className="whitespace-nowrap text-white px-6 py-4 font-medium">
-                          45
+                          53
                         </td>
                         <td className="whitespace-nowrap text-white px-6 py-4 font-medium">
                           106
@@ -193,7 +193,7 @@ function Home() {
                           Seamen <br /> Bulls vs Blue Chews
                         </td>
                         <td className="whitespace-nowrap  font-medium">
-                          58 - 18 <br /> 55-48 <br /> 56-47
+                          58 - 26 <br /> 55-48 <br /> 56-47
                         </td>
                       </tr>
                       <tr className="border-b border-gray-600 text-neutral-800 ">
