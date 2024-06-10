@@ -193,7 +193,7 @@ export const oStats = [
     sacks: 0,
     tackles: 4,
     deflections: 3,
-    picks: 0,
+    picks: 1,
     dtouchdowns: 0,
   },
   {
