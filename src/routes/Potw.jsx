@@ -72,7 +72,7 @@ function Potw() {
               </h4>
               <p className="text-white py-1 text-md">2 Sacks</p>
 
-              <p className="text-white py-1 text-md">4 Tackles</p>
+              <p className="text-white py-1 text-md">6 Tackles</p>
             </div>
           </div>
         </div>
