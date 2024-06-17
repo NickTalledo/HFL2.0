@@ -11,23 +11,15 @@ function Home() {
             </h1>
             <img src="HFL-Logo.png" alt="HFL Logo" height={350} width={350} />
             <p className="max-w-[400px] text-center text-xl text-white sm:max-w-[600px] mx-6 lg:mx-0 mb-8">
-              The Penjamin Bros continued their dominant streak by thrashing the
-              Men in Black 58-26. The game ended prematurely as the Men in Black
-              chose to forfeit before the completion of the third quarter,
-              unable to get anything going against the Penjamin Bros&apos;
-              relentless assault. In an electrifying shootout, the Redskins
-              defeated the Seamen 55-48. Trailing by two scores with the Seamen
-              starting the second half with the ball, the Redskins mounted an
-              impressive comeback. Redskins are proving their doubters wrong,
-              showing their resilience and ability to perform under pressure.
-              The Bulls secured a victory over the Blue Chews with a final score
-              of 56-47. Despite the close end score, the Bulls maintained
-              control throughout the game, never allowing the Blue Chews to
-              close the gap significantly. Their consistent performance is
-              keeping them in strong contention early in the season. Week 2 has
-              been full of surprises and standout performances. As we move into
-              Week 3, the competition is heating up, and fans can look forward
-              to more intense matchups and thrilling moments.
+              Week 3 brought some interesting developments to the league. The
+              Seamen secured their first win of the season by defeating the Men
+              in Black 37-27, showing they have the potential to turn things
+              around. The Bulls overcame the Redskins in a game that was close
+              until the Bulls pulled away in the second half, ending with a
+              40-22 victory. Meanwhile, the Penjamin Bros continued their
+              dominant streak, absolutely dismantling the Blue Chews with a
+              commanding 52-17 win. The Penjamin Bros remain the team to beat as
+              we head into Week 4.
             </p>
           </div>
           <img
@@ -64,13 +56,13 @@ function Home() {
                           Penjamin Bros
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          2-0
+                          3-0
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          105
+                          157
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 md:px-4 font-medium">
-                          52
+                          69
                         </td>
                       </tr>
                       <tr className="border-b border-gray-500 bg-gray-300 text-neutral-800">
@@ -78,13 +70,13 @@ function Home() {
                           Bulls
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          2-0
+                          3-0
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          104
+                          144
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          74
+                          96
                         </td>
                       </tr>
                       <tr className="border-b border-red-500 bg-red-300 text-neutral-800">
@@ -92,27 +84,13 @@ function Home() {
                           Redskins
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          2-0
+                          2-1
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          94
+                          116
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          68
-                        </td>
-                      </tr>
-                      <tr className="border-b border-blue-500 bg-blue-300 text-neutral-800 dark:border-neutral-600 dark:bg-neutral-700">
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          Blue Chews
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0-2
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          67
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          95
+                          108
                         </td>
                       </tr>
                       <tr className="border-b border-white bg-white text-neutral-800">
@@ -120,27 +98,42 @@ function Home() {
                           Seamen
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0-2
+                          1-2
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          74
+                          111
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          102
+                          129
                         </td>
                       </tr>
+                      <tr className="border-b border-blue-500 bg-blue-300 text-neutral-800 dark:border-neutral-600 dark:bg-neutral-700">
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          Blue Chews
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          0-3
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          84
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          147
+                        </td>
+                      </tr>
+
                       <tr className="border-b border-black bg-black text-neutral-800">
                         <td className="whitespace-nowrap text-white px-6 py-4 font-medium">
                           Men in Black
                         </td>
                         <td className="whitespace-nowrap text-white px-6 py-4 font-medium">
-                          0-2
+                          0-3
                         </td>
                         <td className="whitespace-nowrap text-white px-6 py-4 font-medium">
-                          53
+                          80
                         </td>
                         <td className="whitespace-nowrap text-white px-6 py-4 font-medium">
-                          106
+                          143
                         </td>
                       </tr>
                     </tbody>
@@ -201,10 +194,11 @@ function Home() {
                           Week 3
                         </td>
                         <td className="whitespace-nowrap font-medium border-r border-gray-600">
-                          TBD vs TBD <br /> TBD vs TBD <br /> TBD vs TBD
+                          Men in Black vs Seamen <br /> Bulls vs Redskins <br />{" "}
+                          Penjamin Bros vs Blue Chews
                         </td>
                         <td className="whitespace-nowrap  font-medium">
-                          TBD - TBD <br /> TBD - TBD <br /> TBD - TBD
+                          27 - 37 <br /> 40 - 22 <br /> 52 - 17
                         </td>
                       </tr>
                       <tr className="border-b border-gray-600 text-neutral-800 ">
