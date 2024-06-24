@@ -32,7 +32,7 @@ function Potw() {
                 </h4>
                 <p className="text-white py-1 text-md">102 Rushing Yards</p>
                 <p className="text-white py-1 text-md">402 Passing Yards</p>
-                <p className="text-white py-1 text-md">8 Total Touchdowns</p>
+                <p className="text-white py-1 text-md">9 Total Touchdowns</p>
               </div>
             </div>
           </div>
