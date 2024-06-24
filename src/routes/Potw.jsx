@@ -15,7 +15,7 @@ function Potw() {
     <Layout>
       <section style={{ ...backgroundStyle, paddingBottom: "2rem" }}>
         <h1 className="star-wars-heading text-6xl text-center font-bold text-white pt-2 drop-shadow-lg tracking-widest mb-4">
-          <p className="mt-4">Week 3</p>
+          <p className="mt-4">Week 4</p>
         </h1>
 
         <div className="flex justify-center items-center">

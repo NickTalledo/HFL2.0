@@ -175,7 +175,7 @@ function Home() {
                           <br /> Bulls vs Men in Black
                         </td>
                         <td className="whitespace-nowrap  font-medium">
-                          47-26 <br /> 20-39 <br /> 48-27
+                          47 - 26 <br /> 20 - 39 <br /> 48 - 27
                         </td>
                       </tr>
                       <tr className="border-b border-gray-600 text-neutral-800 ">
@@ -187,7 +187,7 @@ function Home() {
                           Seamen <br /> Bulls vs Blue Chews
                         </td>
                         <td className="whitespace-nowrap  font-medium">
-                          58 - 26 <br /> 55-48 <br /> 56-47
+                          58 - 26 <br /> 55 - 48 <br /> 56 - 47
                         </td>
                       </tr>
                       <tr className="border-b border-gray-600 text-neutral-800 ">
