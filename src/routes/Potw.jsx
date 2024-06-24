@@ -30,9 +30,9 @@ function Potw() {
                 <h4 className="py-2 text-white text-md">
                   <strong>Stats</strong>
                 </h4>
-                <p className="text-white py-1 text-md">22 Completions</p>
-                <p className="text-white py-1 text-md">389 Passing Yards</p>
-                <p className="text-white py-1 text-md">8 Passing Touchdowns</p>
+                <p className="text-white py-1 text-md">102 Rushing Yards</p>
+                <p className="text-white py-1 text-md">402 Passing Yards</p>
+                <p className="text-white py-1 text-md">8 Total Touchdowns</p>
               </div>
             </div>
           </div>
@@ -44,17 +44,17 @@ function Potw() {
             style={cardWithLogoStyle}
           >
             <div className="text-center shadow-lg p-6 rounded-xl my-6 flex-2 relative card-content">
-              <img src="BullsLogo.png" alt="Logo" className="logo" />
+              <img src="MIBLogo.png" alt="Logo" className="logo" />
               <h3 className="text-lg font-medium pt-4 pb-1 text-white mt-4 lg:mt-0">
                 <strong>Offensive Player of the Week</strong>
               </h3>
-              <p className="py-1 text-lg text-white">Deni Kurtulla</p>
+              <p className="py-1 text-lg text-white">Jonny Capobianco</p>
               <h4 className="py-2 text-white text-md">
                 <strong>Stats</strong>
               </h4>
-              <p className="text-white py-1 text-md">7 Receptions</p>
-              <p className="text-white py-1 text-md">208 Receiving Yards</p>
-              <p className="text-white py-1 text-md">3 Touchdowns</p>
+              <p className="text-white py-1 text-md">11 Receptions</p>
+              <p className="text-white py-1 text-md">167 Receiving Yards</p>
+              <p className="text-white py-1 text-md">4 Touchdowns</p>
             </div>
           </div>
           <div
@@ -62,17 +62,17 @@ function Potw() {
             style={cardWithLogoStyle}
           >
             <div className="text-center shadow-lg p-6 my-6 rounded-xl flex-2 relative card-content">
-              <img src="SeamenLogo.png" alt="Logo" className="logo" />
+              <img src="MIBLogo.png" alt="Logo" className="logo" />
               <h3 className="text-lg font-medium pt-4 pb-1 text-white mt-4 lg:mt-0">
                 <strong>Defensive Player of the Week</strong>
               </h3>
-              <p className="py-1 text-lg text-white">Josh Soler</p>
+              <p className="py-1 text-lg text-white">Nick Dinicola</p>
               <h4 className="py-2 text-white text-md">
                 <strong>Stats</strong>
               </h4>
-              <p className="text-white py-1 text-md">2 Sacks</p>
+              <p className="text-white py-1 text-md">2 Deflections</p>
 
-              <p className="text-white py-1 text-md">6 Tackles</p>
+              <p className="text-white py-1 text-md">9 Tackles</p>
             </div>
           </div>
         </div>
