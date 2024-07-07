@@ -11,17 +11,15 @@ function Home() {
             </h1>
             <img src="HFL-Logo.png" alt="HFL Logo" height={350} width={350} />
             <p className="max-w-[400px] text-center text-xl text-white sm:max-w-[600px] mx-6 lg:mx-0 mb-8">
-              Week 4 was packed with thrilling action and unexpected outcomes.
-              The highly anticipated clash between the undefeated Penjamin Bros
-              and Bulls ended with the Penjamin Bros securing a 66-47 victory,
-              proving their dominance once again. The Seamen, missing some key
-              starters, fell to the Blue Chews 27-47, giving the Blue Chews
-              their first win of the season. In a dramatic upset, the Redskins
-              narrowly lost to the Men in Black in a nail-biting finish. The
-              game could have gone either way until the very last second, but
-              the Men in Black emerged victorious with a 42-41 win. As we move
-              into Week 5, the league dynamics continue to shift, promising more
-              excitement ahead.
+              Week 6 brought some decisive victories and intense matchups. The
+              Bulls obliterated the Redskins with a 36-0 victory, although
+              it&apos;s worth noting the Redskins were missing some key players.
+              The Men in Black showcased their dominance by defeating the Seamen
+              40-12. In a thrilling nailbiter, the Blue Chews managed to edge
+              out the Penjamin Bros 36-29, despite the Penjamin Bros playing
+              without their star quarterback and first-round pick. As we move
+              into Week 7, the stakes are higher, and the competition is fiercer
+              than ever.
             </p>
           </div>
           <img
@@ -58,13 +56,13 @@ function Home() {
                           Penjamin Bros
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          4-0
+                          4-2
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          223
+                          252
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 md:px-4 font-medium">
-                          116
+                          152
                         </td>
                       </tr>
                       <tr className="border-b border-gray-500 bg-gray-300 text-neutral-800">
@@ -72,13 +70,13 @@ function Home() {
                           Bulls
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          3-1
+                          4-2
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          191
+                          267
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          162
+                          214
                         </td>
                       </tr>
                       <tr className="border-b border-red-500 bg-red-300 text-neutral-800">
@@ -86,27 +84,13 @@ function Home() {
                           Redskins
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          2-2
+                          3-3
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
                           157
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          150
-                        </td>
-                      </tr>
-                      <tr className="border-b border-white bg-white text-neutral-800">
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          Seamen
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          1-3
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          138
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          176
+                          186
                         </td>
                       </tr>
                       <tr className="border-b border-blue-500 bg-blue-300 text-neutral-800 dark:border-neutral-600 dark:bg-neutral-700">
@@ -114,13 +98,13 @@ function Home() {
                           Blue Chews
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          1-3
+                          3-3
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          131
+                          202
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          174
+                          231
                         </td>
                       </tr>
                       <tr className="border-b border-black bg-black text-neutral-800">
@@ -128,13 +112,27 @@ function Home() {
                           Men in Black
                         </td>
                         <td className="whitespace-nowrap text-white px-6 py-4 font-medium">
-                          1-3
+                          2-4
                         </td>
                         <td className="whitespace-nowrap text-white px-6 py-4 font-medium">
-                          122
+                          190
                         </td>
                         <td className="whitespace-nowrap text-white px-6 py-4 font-medium">
-                          184
+                          231
+                        </td>
+                      </tr>
+                      <tr className="border-b border-white bg-white text-neutral-800">
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          Seamen
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          2-4
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          202
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          256
                         </td>
                       </tr>
                     </tbody>
@@ -217,6 +215,30 @@ function Home() {
                       <tr className="border-b border-gray-600 text-neutral-800 ">
                         <td className="whitespace-nowrap font-medium border-r border-gray-600 ">
                           Week 5
+                        </td>
+                        <td className="whitespace-nowrap font-medium border-r border-gray-600">
+                          Blue Chews vs Men in Black <br /> Bulls vs Seamen{" "}
+                          <br /> Penjamin Bros vs Redskins
+                        </td>
+                        <td className="whitespace-nowrap  font-medium">
+                          TBD - TBD <br /> TBD - TBD <br /> FF - W
+                        </td>
+                      </tr>
+                      <tr className="border-b border-gray-600 text-neutral-800 ">
+                        <td className="whitespace-nowrap font-medium border-r border-gray-600 ">
+                          Week 6
+                        </td>
+                        <td className="whitespace-nowrap font-medium border-r border-gray-600">
+                          Bulls vs Redskins <br /> Seamen vs TBD <br /> Penjamin
+                          Bros vs Blue Chews
+                        </td>
+                        <td className="whitespace-nowrap  font-medium">
+                          36 - 0 <br /> 40 - 12 <br /> 29 - 36
+                        </td>
+                      </tr>
+                      <tr className="border-b border-gray-600 text-neutral-800 ">
+                        <td className="whitespace-nowrap font-medium border-r border-gray-600 ">
+                          Week 7
                         </td>
                         <td className="whitespace-nowrap font-medium border-r border-gray-600">
                           TBD vs TBD <br /> TBD vs TBD <br /> TBD vs TBD
