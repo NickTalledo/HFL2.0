@@ -221,7 +221,7 @@ function Home() {
                           <br /> Penjamin Bros vs Redskins
                         </td>
                         <td className="whitespace-nowrap  font-medium">
-                          TBD - TBD <br /> TBD - TBD <br /> FF - W
+                          35 - 28 <br /> 40 - 52 <br /> FF - W
                         </td>
                       </tr>
                       <tr className="border-b border-gray-600 text-neutral-800 ">
