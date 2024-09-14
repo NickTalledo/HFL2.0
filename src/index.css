@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Star+Jedi&display=swap");
+
+.star-wars-heading {
+  font-family: "Star Jedi", sans-serif;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -47,10 +53,4 @@
     width: 100px;
     height: 100px;
   }
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Star+Jedi&display=swap");
-
-.star-wars-heading {
-  font-family: "Star Jedi", sans-serif;
 }

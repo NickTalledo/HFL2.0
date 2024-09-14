@@ -11,15 +11,14 @@ function Home() {
             </h1>
             <img src="HFL-Logo.png" alt="HFL Logo" height={350} width={350} />
             <p className="max-w-[400px] text-center text-xl text-white sm:max-w-[600px] mx-6 lg:mx-0 mb-8">
-              Week 6 brought some decisive victories and intense matchups. The
-              Bulls obliterated the Redskins with a 36-0 victory, although
-              it&apos;s worth noting the Redskins were missing some key players.
-              The Men in Black showcased their dominance by defeating the Seamen
-              40-12. In a thrilling nailbiter, the Blue Chews managed to edge
-              out the Penjamin Bros 36-29, despite the Penjamin Bros playing
-              without their star quarterback and first-round pick. As we move
-              into Week 7, the stakes are higher, and the competition is fiercer
-              than ever.
+              The new season is officially underway, and anticipation is at an
+              all-time high. Teams are eager to prove themselves, and rivalries
+              are already heating up. With fresh rosters, new strategies, and a
+              clean slate for every contender, the road to the championship
+              begins now. Will the preseason favorites live up to the hype, or
+              will we see a dark horse rise to the occasion? One thing is
+              certain—this season promises intense matchups, shocking upsets,
+              and unforgettable moments. Let the games begin!
             </p>
           </div>
           <img
@@ -51,88 +50,60 @@ function Home() {
                       </tr>
                     </thead>
                     <tbody>
-                      <tr className="border-b border-green-500 bg-green-300 text-neutral-800">
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          Penjamin Bros
+                      <tr className="border-b border-black bg-black text-neutral-800">
+                        <td className="whitespace-nowrap px-6 py-4 font-medium text-white">
+                          Mambas
                         </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          4-2
+                        <td className="whitespace-nowrap px-6 py-4 font-medium text-white">
+                          0-0
                         </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          252
+                        <td className="whitespace-nowrap px-6 py-4 font-medium text-white">
+                          0
                         </td>
-                        <td className="whitespace-nowrap px-6 py-4 md:px-4 font-medium">
-                          152
+                        <td className="whitespace-nowrap px-6 py-4 md:px-4 font-medium text-white">
+                          0
                         </td>
                       </tr>
                       <tr className="border-b border-gray-500 bg-gray-300 text-neutral-800">
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          Bulls
+                          MILF Hunters
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          4-2
+                          0-0
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          267
+                          0
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          214
+                          0
+                        </td>
+                      </tr>
+                      <tr className="border-b border-white bg-white text-neutral-800 dark:border-neutral-600 dark:bg-neutral-700">
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          White Socks
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          0-0
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          0
+                        </td>
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          0
                         </td>
                       </tr>
                       <tr className="border-b border-red-500 bg-red-300 text-neutral-800">
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          Redskins
+                          Bulls
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          3-3
+                          0-0
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          157
+                          0
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          186
-                        </td>
-                      </tr>
-                      <tr className="border-b border-blue-500 bg-blue-300 text-neutral-800 dark:border-neutral-600 dark:bg-neutral-700">
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          Blue Chews
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          3-3
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          202
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          231
-                        </td>
-                      </tr>
-                      <tr className="border-b border-black bg-black text-neutral-800">
-                        <td className="whitespace-nowrap text-white px-6 py-4 font-medium">
-                          Men in Black
-                        </td>
-                        <td className="whitespace-nowrap text-white px-6 py-4 font-medium">
-                          2-4
-                        </td>
-                        <td className="whitespace-nowrap text-white px-6 py-4 font-medium">
-                          190
-                        </td>
-                        <td className="whitespace-nowrap text-white px-6 py-4 font-medium">
-                          231
-                        </td>
-                      </tr>
-                      <tr className="border-b border-white bg-white text-neutral-800">
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          Seamen
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          2-4
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          202
-                        </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          256
+                          0
                         </td>
                       </tr>
                     </tbody>
@@ -169,11 +140,10 @@ function Home() {
                           Week 1
                         </td>
                         <td className="whitespace-nowrap font-medium border-r border-gray-600">
-                          Penjamin Bros vs Seamen <br /> Blue Chews vs Redskins{" "}
-                          <br /> Bulls vs Men in Black
+                          White Socks vs MILF Hunters <br /> Bulls vs Mambas{" "}
                         </td>
                         <td className="whitespace-nowrap  font-medium">
-                          47 - 26 <br /> 20 - 39 <br /> 48 - 27
+                          TBD <br /> TBD
                         </td>
                       </tr>
                       <tr className="border-b border-gray-600 text-neutral-800 ">
@@ -181,11 +151,10 @@ function Home() {
                           Week 2
                         </td>
                         <td className="whitespace-nowrap font-medium border-r border-gray-600">
-                          Penjamin Bros vs Men in Black <br /> Redskins vs
-                          Seamen <br /> Bulls vs Blue Chews
+                          TBD vs TBD <br /> TBD vs TBD
                         </td>
                         <td className="whitespace-nowrap  font-medium">
-                          58 - 26 <br /> 55 - 48 <br /> 56 - 47
+                          TBD <br /> TBD
                         </td>
                       </tr>
                       <tr className="border-b border-gray-600 text-neutral-800 ">
@@ -193,11 +162,10 @@ function Home() {
                           Week 3
                         </td>
                         <td className="whitespace-nowrap font-medium border-r border-gray-600">
-                          Men in Black vs Seamen <br /> Bulls vs Redskins <br />{" "}
-                          Penjamin Bros vs Blue Chews
+                          TBD vs TBD <br /> TBD vs TBD <br />{" "}
                         </td>
                         <td className="whitespace-nowrap  font-medium">
-                          27 - 37 <br /> 40 - 22 <br /> 52 - 17
+                          TBD <br /> TBD
                         </td>
                       </tr>
                       <tr className="border-b border-gray-600 text-neutral-800 ">
@@ -205,46 +173,10 @@ function Home() {
                           Week 4
                         </td>
                         <td className="whitespace-nowrap font-medium border-r border-gray-600">
-                          Penjamin Bros vs Bulls <br /> Seamen vs Blue Chews{" "}
-                          <br /> Redskins vs Men in Black
+                          TBD vs TBD <br /> TBD vs TBD{" "}
                         </td>
                         <td className="whitespace-nowrap  font-medium">
-                          66 - 47 <br /> 27 - 47 <br /> 41 - 42
-                        </td>
-                      </tr>
-                      <tr className="border-b border-gray-600 text-neutral-800 ">
-                        <td className="whitespace-nowrap font-medium border-r border-gray-600 ">
-                          Week 5
-                        </td>
-                        <td className="whitespace-nowrap font-medium border-r border-gray-600">
-                          Blue Chews vs Men in Black <br /> Bulls vs Seamen{" "}
-                          <br /> Penjamin Bros vs Redskins
-                        </td>
-                        <td className="whitespace-nowrap  font-medium">
-                          35 - 28 <br /> 40 - 52 <br /> FF - W
-                        </td>
-                      </tr>
-                      <tr className="border-b border-gray-600 text-neutral-800 ">
-                        <td className="whitespace-nowrap font-medium border-r border-gray-600 ">
-                          Week 6
-                        </td>
-                        <td className="whitespace-nowrap font-medium border-r border-gray-600">
-                          Bulls vs Redskins <br /> Seamen vs TBD <br /> Penjamin
-                          Bros vs Blue Chews
-                        </td>
-                        <td className="whitespace-nowrap  font-medium">
-                          36 - 0 <br /> 40 - 12 <br /> 29 - 36
-                        </td>
-                      </tr>
-                      <tr className="border-b border-gray-600 text-neutral-800 ">
-                        <td className="whitespace-nowrap font-medium border-r border-gray-600 ">
-                          Week 7
-                        </td>
-                        <td className="whitespace-nowrap font-medium border-r border-gray-600">
-                          TBD vs TBD <br /> TBD vs TBD <br /> TBD vs TBD
-                        </td>
-                        <td className="whitespace-nowrap  font-medium">
-                          TBD - TBD <br /> TBD - TBD <br /> TBD - TBD
+                          TBD <br /> TBD
                         </td>
                       </tr>
                     </tbody>

@@ -15,24 +15,24 @@ function Potw() {
     <Layout>
       <section style={{ ...backgroundStyle, paddingBottom: "2rem" }}>
         <h1 className="star-wars-heading text-6xl text-center font-bold text-white pt-2 drop-shadow-lg tracking-widest mb-4">
-          <p className="mt-4">Week 6</p>
+          <p className="mt-4">Week 1</p>
         </h1>
 
         <div className="flex justify-center items-center">
           <div className="lg:w-2/3 w-4/5 mb-10">
             <div className="card-background" style={cardWithLogoStyle}>
               <div className="text-center shadow-lg p-6 rounded-xl my-6 mt-6 relative card-content">
-                <img src="BullsLogo.png" alt="Logo" className="logo" />
+                <img src="HFL-Logo.png" alt="Logo" className="logo" />
                 <h3 className="text-lg font-medium pt-4 pb-1 text-white mt-4 lg:mt-0">
                   <strong>Player of the Week</strong>
                 </h3>
-                <p className="py-1 text-lg text-white">Nick Belli</p>
+                <p className="py-1 text-lg text-white">TBD</p>
                 <h4 className="py-2 text-white text-md">
                   <strong>Stats</strong>
                 </h4>
-                <p className="text-white py-1 text-md">2 Interceptions</p>
-                <p className="text-white py-1 text-md">212 Passing Yards</p>
-                <p className="text-white py-1 text-md">5 Passing Touchdowns</p>
+                <p className="text-white py-1 text-md">TBD</p>
+                <p className="text-white py-1 text-md">TBD</p>
+                <p className="text-white py-1 text-md">TBD</p>
               </div>
             </div>
           </div>
@@ -44,17 +44,17 @@ function Potw() {
             style={cardWithLogoStyle}
           >
             <div className="text-center shadow-lg p-6 rounded-xl my-6 flex-2 relative card-content">
-              <img src="BullsLogo.png" alt="Logo" className="logo" />
+              <img src="HFL-Logo.png" alt="Logo" className="logo" />
               <h3 className="text-lg font-medium pt-4 pb-1 text-white mt-4 lg:mt-0">
                 <strong>Offensive Player of the Week</strong>
               </h3>
-              <p className="py-1 text-lg text-white">Richie Viglione</p>
+              <p className="py-1 text-lg text-white">TBD</p>
               <h4 className="py-2 text-white text-md">
                 <strong>Stats</strong>
               </h4>
-              <p className="text-white py-1 text-md">11 Receptions</p>
-              <p className="text-white py-1 text-md">157 Receiving Yards</p>
-              <p className="text-white py-1 text-md">4 Touchdowns</p>
+              <p className="text-white py-1 text-md">TBD</p>
+              <p className="text-white py-1 text-md">TBD</p>
+              <p className="text-white py-1 text-md">TBD</p>
             </div>
           </div>
           <div
@@ -62,17 +62,17 @@ function Potw() {
             style={cardWithLogoStyle}
           >
             <div className="text-center shadow-lg p-6 my-6 rounded-xl flex-2 relative card-content">
-              <img src="MIBLogo.png" alt="Logo" className="logo" />
+              <img src="HFL-Logo.png" alt="Logo" className="logo" />
               <h3 className="text-lg font-medium pt-4 pb-1 text-white mt-4 lg:mt-0">
                 <strong>Defensive Player of the Week</strong>
               </h3>
-              <p className="py-1 text-lg text-white">Nick Dinicola</p>
+              <p className="py-1 text-lg text-white">TBD</p>
               <h4 className="py-2 text-white text-md">
                 <strong>Stats</strong>
               </h4>
-              <p className="text-white py-1 text-md">3 Deflections</p>
-              <p className="text-white py-1 text-md">6 Tackles</p>
-              <p className="text-white py-1 text-md">1 Pick-6</p>
+              <p className="text-white py-1 text-md">TBD</p>
+              <p className="text-white py-1 text-md">TBD</p>
+              <p className="text-white py-1 text-md">TBD</p>
             </div>
           </div>
         </div>
