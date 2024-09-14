@@ -33,18 +33,18 @@ function Home() {
               <div className="inline-block min-w-full py-2 sm:px-4 lg:px-8 max-w-full">
                 <div className="overflow-hidden px-2 ">
                   <table className="min-w-full text-center text-sm font-light shadow-xl">
-                    <thead className="border-b font-medium dark:border-neutral-500">
-                      <tr>
-                        <th scope="col" className="px-2 py-4">
+                    <thead className="border-blue-600 font-medium dark:border-neutral-500">
+                      <tr className="bg-blue-600">
+                        <th scope="col" className="px-2 py-4 text-white">
                           Team
                         </th>
-                        <th scope="col" className="px-2 py-4">
+                        <th scope="col" className="px-2 py-4 text-white">
                           Record
                         </th>
-                        <th scope="col" className="px-2 py-4">
+                        <th scope="col" className="px-2 py-4 text-white">
                           Points Scored
                         </th>
-                        <th scope="col" className="px-2 py-4">
+                        <th scope="col" className="px-2 py-4 text-white">
                           Points Allowed
                         </th>
                       </tr>
