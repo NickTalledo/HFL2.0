@@ -22,7 +22,7 @@ function News() {
             receptions, and 2 touchdowns. Richie Viglione was right there with
             him, hauling in 10 receptions for 148 yards and 3 touchdowns of his
             own. With stats like these, there&apos;s no way they should have
-            lost.. But let&apos;s talk about Danny Ross for the Grey Gooses. 9
+            lost. But let&apos;s talk about Danny Ross for the Grey Gooses. 9
             receptions, 176 receiving yards, and 4 touchdowns. That man is a
             problem! Ross not only led the league in receiving yards and
             touchdowns for Week 1, but he also single-handedly willed the Grey
