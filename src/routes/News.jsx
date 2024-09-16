@@ -14,6 +14,39 @@ function News() {
         <div className="bg-white dark:bg-gray-800 p-4 border border-gray-300 dark:border-gray-700 rounded-md max-w-[900px] mx-6 lg:mx-0 mt-6 mb-4">
           <h1 className="text-6xl text-center font-bold">News</h1>
           <p className="mt-4 text-sm">
+            <strong>Week 1 8/15/2024:</strong> What an absolute heartbreaker for
+            the White Socks! They were in control for almost the entire game,
+            and yet, in the final three minutes, the Grey Gooses managed to pull
+            off an unreal comeback to win 33-32. Adrian Rugova was a beast for
+            the White Socks, putting up 149 receiving yards, 3 sacks, 8
+            receptions, and 2 touchdowns. Richie Viglione was right there with
+            him, hauling in 10 receptions for 148 yards and 3 touchdowns of his
+            own. With stats like these, there&apos;s no way they should have
+            lost.. But let&apos;s talk about Danny Ross for the Grey Gooses. 9
+            receptions, 176 receiving yards, and 4 touchdowns. That man is a
+            problem! Ross not only led the league in receiving yards and
+            touchdowns for Week 1, but he also single-handedly willed the Grey
+            Gooses to victory. This was an instant classic, and it&apos;ll be
+            talked about all season long.
+            <br></br>
+            <em>- Cris Collinsworth</em>
+          </p>
+
+          <p className="mt-4 text-sm">
+            <strong>Week 1 8/15/2024:</strong> The Bulls are exactly who we
+            thought they were absolute powerhouses. After their 44-15 demolition
+            of the Mambas, it&apos;s clear this team is in a league of its own
+            right now. Their dominance on both sides of the ball was just too
+            much for the Mambas to handle. Let&apos;s be honest, if any team
+            thinks they can stand toe-to-toe with the Bulls this season,
+            they&apos;re in for a rude awakening. Their offense looks
+            unstoppable, and that defense? Absolutely suffocating. The Bulls
+            aren&apos;t just good, they&apos;re great. Get used to seeing them
+            on top.
+            <br></br>
+            <em>- Michael Irvin</em>
+          </p>
+          <p className="mt-4 text-sm">
             <strong>Season Opener:</strong> The highly anticipated season opener
             is finally here, and all eyes are on the field as teams prepare to
             kick off their campaigns. With fresh rosters, offseason trades, and

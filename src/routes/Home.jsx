@@ -11,14 +11,14 @@ function Home() {
             </h1>
             <img src="HFL-Logo.png" alt="HFL Logo" height={350} width={350} />
             <p className="max-w-[400px] text-center text-xl text-white sm:max-w-[600px] mx-6 lg:mx-0 mb-8">
-              The new season is officially underway, and anticipation is at an
-              all-time high. Teams are eager to prove themselves, and rivalries
-              are already heating up. With fresh rosters, new strategies, and a
-              clean slate for every contender, the road to the championship
-              begins now. Will the preseason favorites live up to the hype, or
-              will we see a dark horse rise to the occasion? One thing is
-              certain—this season promises intense matchups, shocking upsets,
-              and unforgettable moments. Let the games begin!
+              Week 1 kicked off with a wild start! The White Socks were in
+              complete control for nearly the entire game against the Grey
+              Gooses, but in the final three minutes, the Grey Gooses pulled off
+              a miraculous comeback, stealing the win in the last seconds,
+              33-32. Meanwhile, the Bulls lived up to their preseason hype,
+              dominating the Mambas with a commanding 44-15 victory, leaving no
+              doubt that they are a force to be reckoned with. Buckle up—this
+              season is already delivering high-intensity drama. On to Week 2!
             </p>
           </div>
           <img
@@ -50,32 +50,32 @@ function Home() {
                       </tr>
                     </thead>
                     <tbody>
-                      <tr className="border-b border-black bg-black text-neutral-800">
-                        <td className="whitespace-nowrap px-6 py-4 font-medium text-white">
-                          Mambas
+                      <tr className="border-b border-red-500 bg-red-300 text-neutral-800">
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          Bulls
                         </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium text-white">
-                          0-0
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          1-0
                         </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium text-white">
-                          0
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          44
                         </td>
-                        <td className="whitespace-nowrap px-6 py-4 md:px-4 font-medium text-white">
-                          0
+                        <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          15
                         </td>
                       </tr>
                       <tr className="border-b border-gray-500 bg-gray-300 text-neutral-800">
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          MILF Hunters
+                          Grey Gooses
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0-0
+                          1-0
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0
+                          33
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0
+                          32
                         </td>
                       </tr>
                       <tr className="border-b border-white bg-white text-neutral-800 dark:border-neutral-600 dark:bg-neutral-700">
@@ -83,27 +83,27 @@ function Home() {
                           White Socks
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0-0
+                          0-1
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0
+                          32
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0
+                          33
                         </td>
                       </tr>
-                      <tr className="border-b border-red-500 bg-red-300 text-neutral-800">
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          Bulls
+                      <tr className="border-b border-black bg-black text-neutral-800">
+                        <td className="whitespace-nowrap px-6 py-4 font-medium text-white">
+                          Mambas
                         </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0-0
+                        <td className="whitespace-nowrap px-6 py-4 font-medium text-white">
+                          0-1
                         </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0
+                        <td className="whitespace-nowrap px-6 py-4 font-medium text-white">
+                          15
                         </td>
-                        <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0
+                        <td className="whitespace-nowrap px-6 py-4 md:px-4 font-medium text-white">
+                          44
                         </td>
                       </tr>
                     </tbody>
@@ -140,10 +140,10 @@ function Home() {
                           Week 1
                         </td>
                         <td className="whitespace-nowrap font-medium border-r border-gray-600">
-                          White Socks vs MILF Hunters <br /> Bulls vs Mambas{" "}
+                          White Socks vs Grey Gooses <br /> Bulls vs Mambas{" "}
                         </td>
                         <td className="whitespace-nowrap  font-medium">
-                          TBD <br /> TBD
+                          32-33 <br /> 44-15
                         </td>
                       </tr>
                       <tr className="border-b border-gray-600 text-neutral-800 ">

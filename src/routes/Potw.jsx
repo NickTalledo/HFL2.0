@@ -26,13 +26,13 @@ function Potw() {
                 <h3 className="text-lg font-medium pt-4 pb-1 text-white mt-4 lg:mt-0">
                   <strong>Player of the Week</strong>
                 </h3>
-                <p className="py-1 text-lg text-white">TBD</p>
+                <p className="py-1 text-lg text-white">Nick Dinicola</p>
                 <h4 className="py-2 text-white text-md">
                   <strong>Stats</strong>
                 </h4>
-                <p className="text-white py-1 text-md">TBD</p>
-                <p className="text-white py-1 text-md">TBD</p>
-                <p className="text-white py-1 text-md">TBD</p>
+                <p className="text-white py-1 text-md">145 Receiving Yards</p>
+                <p className="text-white py-1 text-md">3 Touchdowns</p>
+                <p className="text-white py-1 text-md">1 Pick</p>
               </div>
             </div>
           </div>
@@ -48,13 +48,13 @@ function Potw() {
               <h3 className="text-lg font-medium pt-4 pb-1 text-white mt-4 lg:mt-0">
                 <strong>Offensive Player of the Week</strong>
               </h3>
-              <p className="py-1 text-lg text-white">TBD</p>
+              <p className="py-1 text-lg text-white">Danny Ross</p>
               <h4 className="py-2 text-white text-md">
                 <strong>Stats</strong>
               </h4>
-              <p className="text-white py-1 text-md">TBD</p>
-              <p className="text-white py-1 text-md">TBD</p>
-              <p className="text-white py-1 text-md">TBD</p>
+              <p className="text-white py-1 text-md">9 Receptions</p>
+              <p className="text-white py-1 text-md">176 Receiving Yards</p>
+              <p className="text-white py-1 text-md">4 Touchdowns</p>
             </div>
           </div>
           <div
@@ -66,13 +66,12 @@ function Potw() {
               <h3 className="text-lg font-medium pt-4 pb-1 text-white mt-4 lg:mt-0">
                 <strong>Defensive Player of the Week</strong>
               </h3>
-              <p className="py-1 text-lg text-white">TBD</p>
+              <p className="py-1 text-lg text-white">Josh Soler</p>
               <h4 className="py-2 text-white text-md">
                 <strong>Stats</strong>
               </h4>
-              <p className="text-white py-1 text-md">TBD</p>
-              <p className="text-white py-1 text-md">TBD</p>
-              <p className="text-white py-1 text-md">TBD</p>
+              <p className="text-white py-1 text-md">4 Sacks</p>
+              <p className="text-white py-1 text-md">8 Tackles</p>
             </div>
           </div>
         </div>
