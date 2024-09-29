@@ -14,6 +14,24 @@ function News() {
         <div className="bg-white dark:bg-gray-800 p-4 border border-gray-300 dark:border-gray-700 rounded-md max-w-[900px] mx-6 lg:mx-0 mt-6 mb-4">
           <h1 className="text-6xl text-center font-bold">News</h1>
           <p className="mt-4 text-sm">
+            <strong>Week 2 8/22/2024:</strong> The Bulls might have stumbled out
+            of the gate, but boy, did they make up for it in the second half.
+            After a rough first half where quarterback Nick Belli threw 3
+            interceptions and the Bulls looked like they might crumble, they
+            absolutely dominated the White Socks in the second half to win
+            45-26. Belli turned things around in a big way, becoming surgical in
+            his passing and leading the charge. But the real standout? Anthony
+            Perlongo. This guy was unstoppable, racking up 176 receiving yards
+            and 3 touchdowns. The connection between Belli and Perlongo was
+            lethal, and once they found their groove, the White Socks just
+            didn&apos;t stand a chance. If the Bulls can keep this kind of
+            second-half momentum going, they&apos;re going to be a nightmare for
+            every team in the league.
+            <br></br>
+            <em>- Troy Aikman</em>
+          </p>
+
+          <p className="mt-4 text-sm">
             <strong>Week 1 8/15/2024:</strong> What an absolute heartbreaker for
             the White Socks! They were in control for almost the entire game,
             and yet, in the final three minutes, the Grey Gooses managed to pull

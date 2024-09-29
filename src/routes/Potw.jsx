@@ -15,7 +15,7 @@ function Potw() {
     <Layout>
       <section style={{ ...backgroundStyle, paddingBottom: "2rem" }}>
         <h1 className="star-wars-heading text-6xl text-center font-bold text-white pt-2 drop-shadow-lg tracking-widest mb-4">
-          <p className="mt-4">Week 1</p>
+          <p className="mt-4">Week 2</p>
         </h1>
 
         <div className="flex justify-center items-center">
@@ -26,11 +26,11 @@ function Potw() {
                 <h3 className="text-lg font-medium pt-4 pb-1 text-white mt-4 lg:mt-0">
                   <strong>Player of the Week</strong>
                 </h3>
-                <p className="py-1 text-lg text-white">Nick Dinicola</p>
+                <p className="py-1 text-lg text-white">Anthony Perlongo</p>
                 <h4 className="py-2 text-white text-md">
                   <strong>Stats</strong>
                 </h4>
-                <p className="text-white py-1 text-md">145 Receiving Yards</p>
+                <p className="text-white py-1 text-md">176 Receiving Yards</p>
                 <p className="text-white py-1 text-md">3 Touchdowns</p>
                 <p className="text-white py-1 text-md">1 Pick</p>
               </div>
@@ -48,13 +48,13 @@ function Potw() {
               <h3 className="text-lg font-medium pt-4 pb-1 text-white mt-4 lg:mt-0">
                 <strong>Offensive Player of the Week</strong>
               </h3>
-              <p className="py-1 text-lg text-white">Danny Ross</p>
+              <p className="py-1 text-lg text-white">Andrew Rossi</p>
               <h4 className="py-2 text-white text-md">
                 <strong>Stats</strong>
               </h4>
-              <p className="text-white py-1 text-md">9 Receptions</p>
-              <p className="text-white py-1 text-md">176 Receiving Yards</p>
-              <p className="text-white py-1 text-md">4 Touchdowns</p>
+              <p className="text-white py-1 text-md">8 Receptions</p>
+              <p className="text-white py-1 text-md">80 Receiving Yards</p>
+              <p className="text-white py-1 text-md">2 Touchdowns</p>
             </div>
           </div>
           <div
@@ -66,12 +66,13 @@ function Potw() {
               <h3 className="text-lg font-medium pt-4 pb-1 text-white mt-4 lg:mt-0">
                 <strong>Defensive Player of the Week</strong>
               </h3>
-              <p className="py-1 text-lg text-white">Josh Soler</p>
+              <p className="py-1 text-lg text-white">Ryan Barra</p>
               <h4 className="py-2 text-white text-md">
                 <strong>Stats</strong>
               </h4>
-              <p className="text-white py-1 text-md">4 Sacks</p>
-              <p className="text-white py-1 text-md">8 Tackles</p>
+              <p className="text-white py-1 text-md">2 Deflections</p>
+              <p className="text-white py-1 text-md">3 Tackles</p>
+              <p className="text-white py-1 text-md">1 Pick</p>
             </div>
           </div>
         </div>

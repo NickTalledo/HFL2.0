@@ -11,14 +11,16 @@ function Home() {
             </h1>
             <img src="HFL-Logo.png" alt="HFL Logo" height={350} width={350} />
             <p className="max-w-[400px] text-center text-xl text-white sm:max-w-[600px] mx-6 lg:mx-0 mb-8">
-              Week 1 kicked off with a wild start! The White Socks were in
-              complete control for nearly the entire game against the Grey
-              Gooses, but in the final three minutes, the Grey Gooses pulled off
-              a miraculous comeback, stealing the win in the last seconds,
-              33-32. Meanwhile, the Bulls lived up to their preseason hype,
-              dominating the Mambas with a commanding 44-15 victory, leaving no
-              doubt that they are a force to be reckoned with. Buckle up—this
-              season is already delivering high-intensity drama. On to Week 2!
+              Week 2 delivered more action, with the Bulls overcoming a shaky
+              first half to secure a 45-26 victory over the White Socks. Despite
+              multiple turnovers early on, the Bulls came out firing in the
+              second half to build a commanding lead. Meanwhile, the Grey Gooses
+              edged out the Mambas 26-20 in a tightly contested game. The Mambas
+              tried to mount a comeback late, but ultimately fell short. Looking
+              ahead to Week 3, all eyes will be on the showdown between the two
+              undefeated teams, the Bulls and Grey Gooses, while the winless
+              teams, the White Socks and Mambas, will face off in a fight for
+              redemption.
             </p>
           </div>
           <img
@@ -55,13 +57,13 @@ function Home() {
                           Bulls
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          1-0
+                          2-0
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          44
+                          89
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          15
+                          41
                         </td>
                       </tr>
                       <tr className="border-b border-gray-500 bg-gray-300 text-neutral-800">
@@ -69,13 +71,13 @@ function Home() {
                           Grey Gooses
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          1-0
+                          2-0
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          33
+                          59
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          32
+                          52
                         </td>
                       </tr>
                       <tr className="border-b border-white bg-white text-neutral-800 dark:border-neutral-600 dark:bg-neutral-700">
@@ -83,13 +85,13 @@ function Home() {
                           White Socks
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          0-1
+                          0-2
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          32
+                          58
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium">
-                          33
+                          78
                         </td>
                       </tr>
                       <tr className="border-b border-black bg-black text-neutral-800">
@@ -97,13 +99,13 @@ function Home() {
                           Mambas
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium text-white">
-                          0-1
+                          0-2
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 font-medium text-white">
-                          15
+                          35
                         </td>
                         <td className="whitespace-nowrap px-6 py-4 md:px-4 font-medium text-white">
-                          44
+                          70
                         </td>
                       </tr>
                     </tbody>
@@ -151,10 +153,10 @@ function Home() {
                           Week 2
                         </td>
                         <td className="whitespace-nowrap font-medium border-r border-gray-600">
-                          TBD vs TBD <br /> TBD vs TBD
+                          Bulls vs White Socks <br /> Grey Gooses vs Mambas
                         </td>
                         <td className="whitespace-nowrap  font-medium">
-                          TBD <br /> TBD
+                          45-26 <br /> 26-20
                         </td>
                       </tr>
                       <tr className="border-b border-gray-600 text-neutral-800 ">
@@ -162,7 +164,8 @@ function Home() {
                           Week 3
                         </td>
                         <td className="whitespace-nowrap font-medium border-r border-gray-600">
-                          TBD vs TBD <br /> TBD vs TBD <br />{" "}
+                          Bulls vs Grey Gooses <br /> White Socks vs Mambas{" "}
+                          <br />{" "}
                         </td>
                         <td className="whitespace-nowrap  font-medium">
                           TBD <br /> TBD
