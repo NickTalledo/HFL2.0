@@ -14,7 +14,7 @@ function News() {
         <div className="bg-white dark:bg-gray-800 p-4 border border-gray-300 dark:border-gray-700 rounded-md max-w-[900px] mx-6 lg:mx-0 mt-6 mb-4">
           <h1 className="text-6xl text-center font-bold">News</h1>
           <p className="mt-4 text-sm">
-            <strong>Week 2 8/22/2024:</strong> The Bulls might have stumbled out
+            <strong>Week 2 9/22/2024:</strong> The Bulls might have stumbled out
             of the gate, but boy, did they make up for it in the second half.
             After a rough first half where quarterback Nick Belli threw 3
             interceptions and the Bulls looked like they might crumble, they
@@ -32,7 +32,7 @@ function News() {
           </p>
 
           <p className="mt-4 text-sm">
-            <strong>Week 1 8/15/2024:</strong> What an absolute heartbreaker for
+            <strong>Week 1 9/15/2024:</strong> What an absolute heartbreaker for
             the White Socks! They were in control for almost the entire game,
             and yet, in the final three minutes, the Grey Gooses managed to pull
             off an unreal comeback to win 33-32. Adrian Rugova was a beast for
@@ -51,7 +51,7 @@ function News() {
           </p>
 
           <p className="mt-4 text-sm">
-            <strong>Week 1 8/15/2024:</strong> The Bulls are exactly who we
+            <strong>Week 1 9/15/2024:</strong> The Bulls are exactly who we
             thought they were absolute powerhouses. After their 44-15 demolition
             of the Mambas, it&apos;s clear this team is in a league of its own
             right now. Their dominance on both sides of the ball was just too
